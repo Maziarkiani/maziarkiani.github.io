@@ -22,9 +22,9 @@ links:
   - icon: at-symbol
     url: mailto:maziar.kiani.m@gmail.com
     label: E-mail Me
-    icon: at-symbol
+  - icon: at-symbol
     url: mailto:maziar.kianimoghadamm@edu.unito.it
-    label: E-mail Me
+    label: University E-mail
   - icon: brands/github
     url: https://github.com/Maziarkiani
   - icon: brands/linkedin
@@ -33,11 +33,13 @@ links:
     url: https://orcid.org/0009-0007-1294-9263
 
 
+
 education:
   - degree: M.Sc. in Language Technologies and Digital Humanities
     institution: University of Turin
-    start: 2023-10
-    end: 2026-06
+    start: 2023-10-01
+    end: 2026-06-30
+
     summary: |
       Focused on Computational Linguistics, NLP (Information Retrieval, Sentiment Analysis, Language Modeling, Corpus Linguistics), and Cognitive Neuroscience (Brain Plasticity, Aesthetics, Gamification).
   - degree: B.A. in English Language and Translation
