@@ -17,12 +17,13 @@ bio: |
 affiliations:
   - name: University of Turin
     url: https://en.unito.it/
-  - name: aequa-tech
-    url: https://aequa-tech.com/
 
 links:
   - icon: at-symbol
     url: mailto:maziar.kiani.m@gmail.com
+    label: E-mail Me
+    icon: at-symbol
+    url: mailto:maziar.kianimoghadamm@edu.unito.it
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/Maziarkiani
@@ -31,19 +32,12 @@ links:
   - icon: academicons/orcid
     url: https://orcid.org/0009-0007-1294-9263
 
-interests:
-  - Natural Language Processing (NLP)
-  - Misinformation & Information Disorder Detection
-  - Large Language Models (Fine-Tuning & Evaluation)
-  - Multilingual NLP
-  - Semantic SEO & Technical SEO
-  - Digital Marketing & Content Strategy
 
 education:
   - degree: M.Sc. in Language Technologies and Digital Humanities
     institution: University of Turin
-    start: 2023-10-01
-    end: 2026-06-30
+    start: 2023-10
+    end: 2026-06
     summary: |
       Focused on Computational Linguistics, NLP (Information Retrieval, Sentiment Analysis, Language Modeling, Corpus Linguistics), and Cognitive Neuroscience (Brain Plasticity, Aesthetics, Gamification).
   - degree: B.A. in English Language and Translation
@@ -83,7 +77,7 @@ skills:
   - name: Programming & NLP
     items:
       - label: Python
-        level: 5
+        level: 3
       - label: LLM Evaluation & Fine-Tuning
         level: 4
       - label: Prompt Engineering
