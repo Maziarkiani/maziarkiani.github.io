@@ -47,9 +47,7 @@ social:
 highlight_name: true
 ---
 
-I am a Language Technology professional and NLP researcher with 3+ years of experience, currently completing my M.Sc. in Language Technologies and Digital Humanities at the University of Turin. My research focuses on misinformation detection, information disorder, and multilingual NLP systems using transformer-based models (BERT, ELECTRA, LLaMA).
+I am a Language Technology professional and NLP researcher. Currently completing my M.Sc. in Language Technologies and Digital Humanities at the University of Turin. My research focuses on information disorder detection, Information Retrieval (IR) and cultural bias in NLP.
 
-I co-developed the **Debunker Assistant**, an AI-powered misinformation detection tool, and contributed to the multilingual **InDor corpus** across 5 languages as part of a 12-member international research team at [aequa-tech](https://aequa-tech.com). I am currently participating in **SemEval-2026 Task 9**.
-
-Beyond research, I bring hands-on industry experience in SEO and digital marketing, bridging linguistic expertise with data-driven content strategy.
+Beyond research, I bring hands-on industry experience in semantic SEO, digital marketing, and web-content strategy.
 
