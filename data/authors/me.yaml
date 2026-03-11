@@ -2,115 +2,131 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  display: Maziar Kianimoghadam
+  given: Maziar
+  family: Kianimoghadam Jouneghani
   pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: "🎓"
+role: NLP Researcher & Digital Marketing Specialist
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  I am a Language Technology professional and NLP researcher currently completing my M.Sc. in Language Technologies and Digital Humanities at the University of Turin. My research focuses on information disorder detection, LLM fine-tuning, and multilingual corpora.
+  
+  Beyond research, I bring 3+ years of hands-on industry experience in semantic SEO, digital marketing, and data-informed content strategy, bridging linguistic expertise with business growth.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: University of Turin
+    url: https://en.unito.it/
+  - name: aequa-tech
+    url: https://aequa-tech.com/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:maziar.kiani.m@gmail.com
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/Maziarkiani
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
+    url: https://linkedin.com/in/maziar-kiani/
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/0009-0007-1294-9263
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Natural Language Processing (NLP)
+  - Misinformation & Information Disorder Detection
+  - Large Language Models (Fine-Tuning & Evaluation)
+  - Multilingual NLP
+  - Semantic SEO & Technical SEO
+  - Digital Marketing & Content Strategy
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: M.Sc. in Language Technologies and Digital Humanities
+    institution: University of Turin
+    start: 2023-10-01
+    end: 2026-06-30
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
+      Focused on Computational Linguistics, NLP (Information Retrieval, Sentiment Analysis, Language Modeling, Corpus Linguistics), and Cognitive Neuroscience (Brain Plasticity, Aesthetics, Gamification).
+  - degree: B.A. in English Language and Translation
+    institution: Shahrekord University
     start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+    end: 2017-02-28
+    summary: |
+      Focused on Linguistics (syntax, semantics, pragmatics, morphology) and translation studies.
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: NLP Research Assistant
+    org: aequa-tech, srl (Turin, Italy)
+    start: 2025-02-01
+    end: 2025-07-31
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      Co-developed the "Debunker Assistant", an AI-powered tool detecting and explaining online misinformation by fine-tuning and evaluating state-of-the-art LLMs (LLaMA 4 Maverick, Mixtral-8x22B). Collaborated to create the multilingual InDor corpus across 5 languages.
+  - role: SEO and Digital Marketing Specialist
+    org: Talent Acquisition Partners, srl (Turin, Italy)
+    start: 2025-05-01
+    end: 2025-08-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Devised comprehensive SEO growth roadmap, spearheaded a complex website migration preserving 100% search equity, and architected collaborative workflows embedding SEO into engineering PRDs.
+  - role: SEO Specialist & Content Strategist
+    org: Mana Immigration Services (Remote)
+    start: 2022-11-01
+    end: 2023-04-30
+    summary: |
+      Analyzed and restructured a 500+ URL site architecture. Elevated core content to meet Google's E-E-A-T standards by conducting comprehensive technical audits and updating key service pages.
+  - role: Content & SEO Specialist
+    org: Parsicanada Immigration Services (Remote)
+    start: 2020-05-01
+    end: 2022-04-30
+    summary: |
+      Achieved top-3 Google rankings for 30+ high-intent keywords. Resolved widespread keyword cannibalization and 50+ critical Search Console errors, re-engineering site architecture and UX.
 
 skills:
-  - name: Technical Skills
+  - name: Programming & NLP
     items:
       - label: Python
         level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
+      - label: LLM Evaluation & Fine-Tuning
         level: 4
-  - name: Research & Communication
+      - label: Prompt Engineering
+        level: 5
+      - label: Data Annotation & Labeling
+        level: 5
+  - name: SEO & Digital Marketing
     items:
-      - label: Academic Writing
+      - label: Technical & On-Page SEO
         level: 5
-      - label: Conference Presentations
+      - label: Content Strategy
+        level: 5
+      - label: Web Analytics
         level: 4
-      - label: Grant Proposals
+  - name: Web & Tools
+    items:
+      - label: WordPress / HTML / CSS
         level: 4
+      - label: Ahrefs / Screaming Frog
+        level: 5
+      - label: Google Search Console / Analytics
+        level: 5
 
 languages:
-  - name: English
+  - name: Persian
     level: 5
     label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
+  - name: Turkish
+    level: 5
+    label: Native
+  - name: English
+    level: 5
+    label: C2 (Proficient)
+  - name: Italian
+    level: 2
+    label: A2 (Elementary)
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+  - title: Optimization Certificate
+    awarder: DTU - EIT HEI
+    date: "2024-04-01"
+    icon: hero/academic-cap
+  - title: Digital Marketing / Content Marketing
+    awarder: LinkedIn & HubSpot
+    date: "2022-05-01"
+    icon: hero/academic-cap
