@@ -37,16 +37,16 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
-  - block: markdown
+    - block: markdown
     content:
-      title: '📚 My Research'
+      title: 'My Research & Professional Focus'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        My academic research in NLP is primarily focused on Information Retrieval (IR), Language Modeling, Corpus Linguistics and the Information Disorder.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        In addition to the core NLP work, I am partly focused on Cognitive Neuroscience—including brain plasticity, aesthetics and gamification—to build a deeper analytical foundation for understanding user behavior and human-computer interaction.
 
-        Please reach out to collaborate 😃
+
     design:
       columns: '1'
   - block: collection
