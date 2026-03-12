@@ -19,7 +19,6 @@ sections:
         text: Download CV
         url: uploads/resume.pdf
     design:
-      # Manually pull the bottom margin up
       css_class: 'mb-0 pb-0'
       name:
         size: md
@@ -27,13 +26,22 @@ sections:
         size: medium
         shape: circle
 
-  # 2. Dedicated Education Timeline (No work experience!)
-  - block: resume-education
+  # 2. Education (Custom Markdown so it won't crash and won't show jobs)
+  - block: markdown
     content:
-      username: me
+      title: 'Education'
+      subtitle: ''
+      text: |-
+        **M.Sc. in Language Technologies and Digital Humanities**  
+        *University of Turin* (2023 - 2026)  
+        Focused on Computational Linguistics, NLP (Information Retrieval, Sentiment Analysis, Language Modeling, Corpus Linguistics), and Cognitive Neuroscience (Brain Plasticity, Aesthetics, Gamification).
+        <br><br>
+
+        **B.A. in English Language and Translation**  
+        *Shahrekord University* (2013 - 2017)  
+        Focused on Linguistics (syntax, semantics, pragmatics, morphology) and translation studies.
     design:
-      date_format: '2006'
-      # Tighten spacing to flow naturally
+      columns: '1'
       css_class: 'mt-0 pt-0 mb-8'
 
   # 3. Publications
