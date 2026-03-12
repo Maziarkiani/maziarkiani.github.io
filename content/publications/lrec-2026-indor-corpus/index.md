@@ -11,7 +11,7 @@ authors:
   - Nikolai Efimov
   - Mariia Everstova
   - Caterina Maria Cappello
-  - admin
+  - me
   - Payam Latifi
   - Yashar Mahboudi
   - Farzaneh Mohseni
