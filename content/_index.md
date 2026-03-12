@@ -37,14 +37,7 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
-  - block: markdown
-    content:
-      title: 'My Research & Professional Focus'
-      subtitle: ''
-      text: |-
-        My academic research in NLP is primarily focused on Information Retrieval (IR), Language Modeling, Corpus Linguistics and the Information Disorder.
-
-        In addition to the core NLP work, I am partly focused on Cognitive Neuroscience—including brain plasticity, aesthetics and gamification—to build a deeper analytical foundation for understanding user behavior and human-computer interaction.
+ 
     design:
       columns: '1'
   - block: collection
