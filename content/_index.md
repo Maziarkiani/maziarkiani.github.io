@@ -6,45 +6,38 @@ date: 2022-10-24
 type: landing
 
 design:
-  # Base spacing
+  # Default section spacing
   spacing: '2.5rem'
 
 sections:
-  # 1. Clean Biography (No education boxes!)
-  - block: resume-biography
+  - block: resume-biography-3
     content:
+      # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
       text: ''
+      # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
         url: uploads/resume.pdf
+      headings:
+        about: ''
+        education: ''
+        interests: ''
     design:
-      css_class: 'mb-0 pb-0'
+      # Use the new Gradient Mesh which automatically adapts to the selected theme colors
+      background:
+        gradient_mesh:
+          enable: true
+
+      # Name heading sizing to accommodate long or short names
       name:
-        size: md
+        size: md # Options: xs, sm, md, lg (default), xl
+
+      # Avatar customization
       avatar:
-        size: medium
-        shape: circle
+        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+        shape: circle # Options: circle (default), square, rounded
 
-  # 2. Education (Custom Markdown so it won't crash and won't show jobs)
-  - block: markdown
-    content:
-      title: 'Education'
-      subtitle: ''
-      text: |-
-        **M.Sc. in Language Technologies and Digital Humanities**  
-        *University of Turin* (2023 - 2026)  
-        Focused on Computational Linguistics, NLP (Information Retrieval, Sentiment Analysis, Language Modeling, Corpus Linguistics), and Cognitive Neuroscience (Brain Plasticity, Aesthetics, Gamification).
-        <br><br>
-
-        **B.A. in English Language and Translation**  
-        *Shahrekord University* (2013 - 2017)  
-        Focused on Linguistics (syntax, semantics, pragmatics, morphology) and translation studies.
-    design:
-      columns: '1'
-      css_class: 'mt-0 pt-0 mb-8'
-
-  # 3. Publications
   - block: collection
     content:
       title: Recent Publications
