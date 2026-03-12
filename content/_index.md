@@ -6,16 +6,14 @@ date: 2022-10-24
 type: landing
 
 design:
-  # Default section spacing
+  # Base spacing
   spacing: '2rem'
 
 sections:
   - block: resume-biography-3
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
       text: ''
-      # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
         url: uploads/resume.pdf
@@ -24,22 +22,25 @@ sections:
         education: ''
         interests: ''
     design:
-      # Force a 1-column layout to stretch the content horizontally
-      columns: '1'
-      
-      # Use the new Gradient Mesh which automatically adapts to the selected theme colors
+      # Manually pull the bottom margin up
+      css_class: 'mb-0 pb-0'
       background:
         gradient_mesh:
           enable: true
-
-      # Name heading sizing to accommodate long or short names
       name:
-        size: md # Options: xs, sm, md, lg (default), xl
-
-      # Avatar customization
+        size: md
       avatar:
-        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: circle # Options: circle (default), square, rounded
+        size: medium
+        shape: circle
+
+  - block: resume-experience
+    content:
+      username: me
+    design:
+      date_format: '2006'
+      is_education_first: true
+      # Tighten spacing to flow naturally
+      css_class: 'mt-0 pt-0 mb-8'
 
   - block: collection
     content:
