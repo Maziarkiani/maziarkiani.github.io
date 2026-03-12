@@ -7,7 +7,7 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: '6rem'
+  spacing: '2.5rem'
 
 sections:
   - block: resume-biography-3
@@ -24,6 +24,9 @@ sections:
         education: ''
         interests: ''
     design:
+      # Force a 1-column layout to stretch the content horizontally
+      columns: '1'
+      
       # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:
         gradient_mesh:
