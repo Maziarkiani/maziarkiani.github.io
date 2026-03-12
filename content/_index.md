@@ -7,41 +7,36 @@ type: landing
 
 design:
   # Base spacing
-  spacing: '2rem'
+  spacing: '2.5rem'
 
 sections:
-  - block: resume-biography-3
+  # 1. Clean Biography (No education boxes!)
+  - block: resume-biography
     content:
       username: me
       text: ''
       button:
         text: Download CV
         url: uploads/resume.pdf
-      headings:
-        about: ''
-        education: ''
-        interests: ''
     design:
       # Manually pull the bottom margin up
       css_class: 'mb-0 pb-0'
-      background:
-        gradient_mesh:
-          enable: true
       name:
         size: md
       avatar:
         size: medium
         shape: circle
 
-  - block: resume-experience
+  # 2. Dedicated Education Timeline (No work experience!)
+  - block: resume-education
     content:
       username: me
     design:
       date_format: '2006'
-      is_education_first: true
       # Tighten spacing to flow naturally
       css_class: 'mt-0 pt-0 mb-8'
 
+  # 3. Publications
   - block: collection
     content:
       title: Recent Publications
