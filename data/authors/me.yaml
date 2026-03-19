@@ -110,12 +110,16 @@ skills:
       - label: Google Search Console
       - label: Google Analytics
       - label: Google Ads
-  - name: Languages
-    items:
-      - label: Persian (Native)
-      - label: Turkish (Native)
-      - label: English (C2)
-      - label: Italian (A2)
+
+languages:
+  - name: Persian (Native)
+    percent: 100
+  - name: Turkish (Native)
+    percent: 100
+  - name: English (C2)
+    percent: 95
+  - name: Italian (A2)
+    percent: 30
 
 awards:
   - title: Optimization Certificate
