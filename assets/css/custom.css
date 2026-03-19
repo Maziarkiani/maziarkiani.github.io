@@ -1,8 +1,8 @@
-/* 1. Mobile Margins: Publications, Bio text, and Experience blocks */
+/* 1. Mobile Margins: Tighter spacing to prevent double-padding on homepage */
 @media (max-width: 767px) {
   .view-citation, .stream-item, .prose, .hb-prose {
-    padding-left: 1.5rem !important;
-    padding-right: 1.5rem !important;
+    padding-left: 0.8rem !important;
+    padding-right: 0.8rem !important;
     box-sizing: border-box !important;
   }
 }
