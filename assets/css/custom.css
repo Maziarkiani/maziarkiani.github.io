@@ -7,14 +7,19 @@
   }
   
   /* 2. Homepage Fix: Cancel our custom padding ONLY inside homepage sections */
-  /* The homepage widgets use <section> tags. This prevents the "double margin". */
   section .prose, section .view-citation, section .stream-item, section .hb-prose {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
+
+  /* 3. Bio Text Fix: Manually add padding back to the summary paragraph only */
+  .bio-text {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
 }
 
-/* 3. Global Justification: Keeps all paragraphs and lists perfectly aligned */
+/* 4. Global Justification: Keeps all paragraphs and lists perfectly aligned */
 .view-citation, .stream-item, .pub-list-item, .prose p, .prose li, .hb-prose p, .hb-prose li {
   text-align: justify !important;
   hyphens: auto;
