@@ -1,5 +1,5 @@
 ---
-title: 'Beyond Fake News Detection: A Community-based Study of the Multicultural Nature of Information Disorder'
+title: '[FORTHCOMING] Beyond Fake News Detection: A Community-based Study of the Multicultural Nature of Information Disorder'
 
 authors:
   - Sara Gemelli
@@ -33,8 +33,8 @@ publishDate: '2026-03-01T00:00:00Z'
 # Publication type: 1 = Conference paper
 publication_types: ['1']
 
-publication: 'Accepted at *LREC-COLING 2026*'
-publication_short: 'LREC-COLING 2026'
+publication: '**[FORTHCOMING]** — To appear at *LREC-COLING 2026*'
+publication_short: '**[FORTHCOMING]** LREC-COLING 2026'
 
 abstract: 'Recognizing disinformation is a challenging task for humans and AI systems. News can be false, misleading, or harmful, and its interpretation often depends on the cultural context of the audience. However, existing datasets rarely account for these contextual and cultural differences. To address this gap, we present the Information Disorder (InDor) corpus, a multilingual dataset of 4,155 news articles in English, Farsi, Italian, and Russian, annotated for information disorder detection and explanation. The corpus was developed through a participatory process involving contributors from diverse cultural backgrounds. Our findings highlight that false and manipulated news manifest differently across cultural settings, and that current LLMs (like LLaMA 4 Maverick and Mixtral) fail to adequately capture this complexity, underscoring the need for culturally aware computational approaches.'
 
@@ -60,4 +60,3 @@ url_slides: ''
 url_source: ''
 url_video: ''
 ---
-
