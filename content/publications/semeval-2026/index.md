@@ -1,6 +1,5 @@
 ---
-title: 'MKJ at SemEval-2026 Task 9: A Comparative Study of Generalist, Specialist, and Ensemble Strategies for Multilingual Polarization'
-
+title: '[UNDER REVIEW] MKJ at SemEval-2026 Task 9: A Comparative Study of Generalist, Specialist, and Ensemble Strategies for Multilingual Polarization'
 authors:
   - me
 
