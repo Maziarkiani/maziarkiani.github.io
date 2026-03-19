@@ -4,7 +4,7 @@ title: '[FORTHCOMING] Conspiracy Frame: a Semiotically-Driven Approach for Consp
 authors:
   - Heidi Campana Piva
   - Shaina Ashraf
-  - me
+  - "**Maziar Kianimoghadam Jouneghani**"
   - Arianna Longo
   - Rossana Damiano
   - Lucie Flek
