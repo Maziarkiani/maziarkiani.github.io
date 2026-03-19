@@ -1,5 +1,5 @@
 ---
-title: '[FORTHCOMING] Conspiracy Frame: a Semiotically-Driven Approach for Conspiracy Theories Detection'
+title: '[UNDER REVIEW] Conspiracy Frame: a Semiotically-Driven Approach for Conspiracy Theories Detection'
 
 authors:
   - Heidi Campana Piva
