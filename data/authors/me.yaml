@@ -87,53 +87,42 @@ experience:
       * Bridged marketing and legal teams to develop and optimize over 100 user-centric, Google-compliant content pages, establishing the company as a leading online authority in a competitive industry and securing top-3 Google rankings for 30+ high-intent keywords.
 
 skills:
-  - name: Programming & NLP
+  - name: Programming and Tools
     items:
-      - label: Python
-        level: 3
-      - label: LLM Evaluation & Fine-Tuning
-        level: 4
+      - label: Python (data handling, analysis, and research prototyping)
+      - label: Hugging Face Transformers
+  - name: NLP Methodologies
+    items:
+      - label: In-Context Learning (ICL)
       - label: Prompt Engineering
-        level: 5
-      - label: Data Annotation & Labeling
-        level: 5
+      - label: Model Evaluation (LLMs and classifiers)
+  - name: Data and Linguistic Research
+    items:
+      - label: Multilingual dataset curation and annotation schema design
   - name: SEO & Digital Marketing
     items:
       - label: Technical & On-Page SEO
-        level: 5
       - label: Content Strategy
-        level: 5
-      - label: Web Analytics
-        level: 4
   - name: Web & Tools
     items:
-      - label: WordPress / HTML / CSS
-        level: 4
+      - label: WordPress / HTML
       - label: Ahrefs / Screaming Frog
-        level: 5
-      - label: Google Search Console / Analytics
-        level: 5
+      - label: Google Search Console
+      - label: Google Analytics
+      - label: Google Ads
 
 languages:
   - name: Persian
-    level: 5
     label: Native
   - name: Turkish
-    level: 5
     label: Native
   - name: English
-    level: 5
     label: C2 (Proficient)
   - name: Italian
-    level: 2
     label: A2 (Elementary)
 
 awards:
   - title: Optimization Certificate
     awarder: DTU - EIT HEI
     date: "2024-04-01"
-    icon: hero/academic-cap
-  - title: Digital Marketing / Content Marketing
-    awarder: LinkedIn & HubSpot
-    date: "2022-05-01"
     icon: hero/academic-cap
