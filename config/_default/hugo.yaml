@@ -6,7 +6,7 @@
 # Website name (set in params.yaml under hugoblox.branding.name)
 title: ''
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: 'https://maziarkiani.github.io/'
 
 ############################
 ## LANGUAGE
@@ -63,3 +63,8 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
+
+  # Disable taxonomy and term pages
+disableKinds:
+  - taxonomy
+  - term
