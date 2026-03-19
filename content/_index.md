@@ -19,10 +19,13 @@ sections:
       button:
         text: Download CV
         url: uploads/resume.pdf
-      headings:
+     headings:
         about: ''
         education: ''
         interests: ''
+        skills: 'Technical and Research Skills'
+        experience: 'Research and Work Experience'
+    
     design:
       # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:
