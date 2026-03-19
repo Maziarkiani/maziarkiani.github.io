@@ -1,1 +1,8 @@
-
+/* Apply padding and margin fixes for mobile devices (screens under 768px wide) */
+@media (max-width: 767px) {
+  /* Targeting standard container-like classes */
+  .container, .container-fluid, #main-wrapper, #main {
+    padding-left: 1.5rem !important; /* Forces blank space on the left on small screens */
+    padding-right: 1.5rem !important;
+  }
+}
