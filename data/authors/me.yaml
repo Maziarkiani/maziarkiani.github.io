@@ -2,7 +2,7 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Maziar Kianimoghadam
+  display: Maziar Kianimoghadam Jouneghani
   given: Maziar
   family: Kianimoghadam Jouneghani
   pronouns: he/him
@@ -10,15 +10,15 @@ status:
   icon: "🎓"
 role: NLP Researcher
 bio: |
-  I am an NLP and Computational Linguistics researcher currently pursuing my Master's degree in Language Technologies and Digital Humanities at the University of Turin. My academic focus centers on Large Language Models (LLMs), Explainable AI (XAI), and Human-in-the-Loop (HITL) retrieval-based frameworks.
+  I am an NLP and Computational Linguistics researcher currently pursuing my Master's degree in Language Technologies and Digital Humanities at University of Turin. My academic focus is on Large Language Models (LLMs), Explainable AI (XAI), and Human-in-the-Loop (HITL) retrieval-based frameworks.
   Beyond academia, I bring over 3 years of hands-on industry experience in SEO, web content, and data-driven digital marketing. 
 
   **Research Interests**
-  * Explainable AI (XAI) & In-Context Learning (ICL)
-  * Human-in-the-Loop (HITL) AI Frameworks
+  * Explainable AI (XAI)
+  * In-Context Learning (ICL)
+  * Human-in-the-Loop AI (HITL)
   * Multilingual & Cross-Cultural NLP
-  * Information Disorder (Misinformation & Disinformation)
-  * Cognitive Neuroscience & Biometric Data Analysis
+  * Information Disorder
 
 affiliations:
   - name: University of Turin
@@ -41,13 +41,13 @@ education:
     start: 2023-10-01
     end: 2026-06-30
     summary: |
-      Focused on Computational Linguistics, NLP (Information Retrieval, Sentiment Analysis, Language Modeling, Corpus Linguistics), and Cognitive Neuroscience (Brain Plasticity, Aesthetics, Gamification).
+      
   - degree: B.A. in English Language and Translation
     institution: Shahrekord University
     start: 2013-09-01
     end: 2017-02-28
     summary: |
-      Focused on Linguistics (syntax, semantics, pragmatics, morphology) and translation studies.
+      Focused on Linguistics and translation studies.
 
 experience:
   - role: NLP Research Assistant
