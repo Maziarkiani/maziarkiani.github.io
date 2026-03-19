@@ -1,7 +1,14 @@
-/* Add padding to mobile screens to prevent text from touching the edges */
+/* 1. Force left/right padding on ALL possible mobile containers */
 @media (max-width: 767px) {
-  main, .prose {
-    padding-left: 1.25rem !important;
-    padding-right: 1.25rem !important;
+  .page-body, #main-content, main, section, article, .hb-main {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    box-sizing: border-box !important;
   }
+}
+
+/* 2. Justify text across the entire website */
+p, .article-style, .prose, .pub-list-item, .summary {
+  text-align: justify !important;
+  hyphens: auto; /* This prevents ugly "rivers of white space" in justified text */
 }
