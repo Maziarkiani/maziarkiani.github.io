@@ -114,8 +114,8 @@ skills:
     items:
       - label: Persian (Native)
       - label: Turkish (Native)
-      - label: English (C2 - Proficient)
-      - label: Italian (A2 - Elementary)
+      - label: English (C2)
+      - label: Italian (A2)
 
 awards:
   - title: Optimization Certificate
