@@ -1,14 +1,14 @@
-/* 1. Fix mobile margins ONLY for text and lists (keeps backgrounds full-width) */
+/* 1. Mobile Margin Fix: Targets ONLY publication items and standard text blocks */
 @media (max-width: 767px) {
-  .prose, .article-style, .stream-item, .article-container {
-    padding-left: 1.25rem !important;
-    padding-right: 1.25rem !important;
+  .view-citation, .stream-item, .max-w-prose {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    box-sizing: border-box !important;
   }
 }
 
-/* 2. Justify ONLY the main reading text (abstracts, bio paragraphs, summaries) */
-/* This safely ignores your centered profile name, role, and buttons */
-.prose p, .article-style p, .article-style li, .summary {
+/* 2. Justify publication lists and standard paragraphs everywhere */
+.view-citation, .stream-item, .max-w-prose p, .summary {
   text-align: justify !important;
   hyphens: auto;
 }
