@@ -14,8 +14,8 @@
 
   /* 3. Bio Text Fix: Manually add padding back to the summary paragraph only */
   .bio-text {
-    padding-left: 0.8rem !important;
-    padding-right: 0.8rem !important;
+    padding-left: 0.7rem !important;
+    padding-right: 0.7rem !important;
   }
 }
 
