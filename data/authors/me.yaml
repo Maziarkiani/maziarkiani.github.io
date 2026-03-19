@@ -73,13 +73,13 @@ experience:
       * Designed collaborative workflows to embed digital marketing and SEO requirements directly into PRDs and PBIs, enabling developers to seamlessly track optimizations and align with broader content strategies.
       * Designed a risk-mitigated website migration ensuring maximum search equity preservation, and devised a data-driven SEO growth roadmap via comprehensive technical audits and competitive analysis both on-page and via Google Ads.
   - role: SEO Specialist & Content Strategist
-    org: Mana Immigration Services (Remote)
+    org: Mana Immigration Services
     start: 2022-11-01
     end: 2023-04-30
     summary: |
       * Re-engineered site architecture and executed a 500+ URL redirect plan to resolve keyword cannibalization, while elevating core content to Google's E-E-A-T standards through strategic internal linking and page updates.
   - role: Content & SEO Specialist
-    org: Parsicanada Immigration Services (Remote)
+    org: Parsicanada Immigration Services
     start: 2020-05-01
     end: 2022-04-30
     summary: |
@@ -110,16 +110,12 @@ skills:
       - label: Google Search Console
       - label: Google Analytics
       - label: Google Ads
-
-languages:
-  - name: Persian
-    label: Native
-  - name: Turkish
-    label: Native
-  - name: English
-    label: C2 (Proficient)
-  - name: Italian
-    label: A2 (Elementary)
+  - name: Languages
+    items:
+      - label: Persian (Native)
+      - label: Turkish (Native)
+      - label: English (C2 - Proficient)
+      - label: Italian (A2 - Elementary)
 
 awards:
   - title: Optimization Certificate
