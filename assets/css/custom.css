@@ -1,13 +1,20 @@
-/* 1. Mobile Margins: Publications, Bio text, and Experience blocks */
+/* 1. Perfect 1.5rem margins for standalone pages (like Publications) */
 @media (max-width: 767px) {
   .view-citation, .stream-item, .prose, .hb-prose {
     padding-left: 1.5rem !important;
     padding-right: 1.5rem !important;
     box-sizing: border-box !important;
   }
+  
+  /* 2. Homepage Fix: Cancel our custom padding ONLY inside homepage sections */
+  /* The homepage widgets use <section> tags. This prevents the "double margin". */
+  section .prose, section .view-citation, section .stream-item, section .hb-prose {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
 }
 
-/* 2. Justification: Bio paragraphs, Experience lists, and all Publications */
+/* 3. Global Justification: Keeps all paragraphs and lists perfectly aligned */
 .view-citation, .stream-item, .pub-list-item, .prose p, .prose li, .hb-prose p, .hb-prose li {
   text-align: justify !important;
   hyphens: auto;
