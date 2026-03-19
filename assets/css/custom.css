@@ -1,14 +1,14 @@
-/* 1. Mobile Margin Fix: Targets ONLY publication items and standard text blocks */
+/* 1. Mobile Margins: Publications, Bio text, and Experience blocks */
 @media (max-width: 767px) {
-  .view-citation, .stream-item, .max-w-prose {
+  .view-citation, .stream-item, .prose, .hb-prose {
     padding-left: 1.5rem !important;
     padding-right: 1.5rem !important;
     box-sizing: border-box !important;
   }
 }
 
-/* 2. Justify publication lists and standard paragraphs everywhere */
-.view-citation, .stream-item, .max-w-prose p, .summary {
+/* 2. Justification: Bio paragraphs, Experience lists, and all Publications */
+.view-citation, .stream-item, .pub-list-item, .prose p, .prose li, .hb-prose p, .hb-prose li {
   text-align: justify !important;
   hyphens: auto;
 }
