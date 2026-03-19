@@ -11,14 +11,14 @@ status:
 role: NLP Researcher
 bio: |
   I am an NLP and Computational Linguistics researcher currently pursuing my Master's degree in Language Technologies and Digital Humanities at University of Turin. My academic focus is on Large Language Models (LLMs), Explainable AI (XAI), and Human-in-the-Loop (HITL) retrieval-based frameworks.
-  Beyond academia, I bring over 3 years of hands-on industry experience in SEO, web content, and data-driven digital marketing. 
 
+  Beyond academia, I bring over 3 years of hands-on industry experience in SEO, web content, and data-driven digital marketing.
   **Research Interests:**
   * Explainable AI (XAI)
   * In-Context Learning (ICL)
   * Human-in-the-Loop AI (HITL)
-  * Multilingual & Cross-Cultural NLP
   * Information Disorder
+  * Multilingual & Cross-Cultural NLP
 
 affiliations:
   - name: University of Turin
@@ -26,7 +26,7 @@ affiliations:
 
 links:
   - icon: at-symbol
-    url: mailto:maziar.kianimoghadamm@edu.unito.it
+    url: mailto:maziar.kianimoghadam@edu.unito.it
     label: University E-mail
   - icon: brands/github
     url: https://github.com/Maziarkiani
@@ -41,7 +41,7 @@ education:
     start: 2023-10-01
     end: 2026-06-30
     summary: |
-      
+      Focused on Large Language Models (LLMs), Explainable AI (XAI), and Human-in-the-Loop (HITL) evaluation frameworks.
   - degree: B.A. in English Language and Translation
     institution: Shahrekord University
     start: 2013-09-01
@@ -50,30 +50,40 @@ education:
       Focused on Linguistics and translation studies.
 
 experience:
-  - role: NLP Research Assistant
+  - role: NLP Research Intern
     org: aequa-tech, srl (Turin, Italy)
     start: 2025-02-01
     end: 2025-07-31
     summary: |
-      Co-developed the "Debunker Assistant", an AI-powered tool detecting and explaining online misinformation by fine-tuning and evaluating state-of-the-art LLMs (LLaMA 4 Maverick, Mixtral-8x22B). Collaborated to create the multilingual InDor corpus across 5 languages.
+      * Collaborated within a 12-member international team on the multilingual InDor corpus, contributing to data collection, annotation, and baseline model benchmarking.
+  - role: Research Assistant
+    org: University of Turin (Cognitive Neuroscience Lab)
+    start: 2024-09-01
+    end: 2025-06-30
+    summary: |
+      * Assisted in EEG data collection and protocol management for a neuroaesthetics study evaluating brain responses to natural and artificial visual stimuli.
+      * Assisted in biometric data collection (ECG, EDA, HRV) for a gamification study analyzing physiological responses during cooperative and competitive problem-solving tasks.
+      * Analyzed physiological data using AcqKnowledge Data Acquisition and Ledalab.
   - role: SEO and Digital Marketing Specialist
-    org: Talent Acquisition Partners, srl (Turin, Italy)
+    org: KiTalent (Turin, Italy)
     start: 2025-05-01
     end: 2025-08-31
     summary: |
-      Devised comprehensive SEO growth roadmap, spearheaded a complex website migration preserving 100% search equity, and architected collaborative workflows embedding SEO into engineering PRDs.
+      * Designed collaborative workflows to embed digital marketing and SEO requirements directly into PRDs and PBIs, enabling developers to seamlessly track optimizations and align with broader content strategies.
+      * Designed a risk-mitigated website migration ensuring maximum search equity preservation, and devised a data-driven SEO growth roadmap via comprehensive technical audits and competitive analysis both on-page and via Google Ads.
   - role: SEO Specialist & Content Strategist
     org: Mana Immigration Services (Remote)
     start: 2022-11-01
     end: 2023-04-30
     summary: |
-      Analyzed and restructured a 500+ URL site architecture. Elevated core content to meet Google's E-E-A-T standards by conducting comprehensive technical audits and updating key service pages.
+      * Re-engineered site architecture and executed a 500+ URL redirect plan to resolve keyword cannibalization, while elevating core content to Google's E-E-A-T standards through strategic internal linking and page updates.
   - role: Content & SEO Specialist
     org: Parsicanada Immigration Services (Remote)
     start: 2020-05-01
     end: 2022-04-30
     summary: |
-      Achieved top-3 Google rankings for 30+ high-intent keywords. Resolved widespread keyword cannibalization and 50+ critical Search Console errors, re-engineering site architecture and UX.
+      * Managed a complete technical turnaround by resolving 50+ critical Search Console errors and re-engineering site UX.
+      * Bridged marketing and legal teams to develop and optimize over 100 user-centric, Google-compliant content pages, establishing the company as a leading online authority in a competitive industry and securing top-3 Google rankings for 30+ high-intent keywords.
 
 skills:
   - name: Programming & NLP
