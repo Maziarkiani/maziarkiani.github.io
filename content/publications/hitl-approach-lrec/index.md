@@ -27,9 +27,8 @@ tags:
   - Explainable AI (XAI)
   - Human-in-the-Loop
   - Information Disorder
-  - Large Language Models
   - Cultural Bias
-  - LREC
+  - LREC 2026
 
 featured: true
 
