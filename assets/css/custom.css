@@ -1,1 +1,7 @@
-
+/* Add padding to mobile screens to prevent text from touching the edges */
+@media (max-width: 767px) {
+  main, .prose {
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+  }
+}
