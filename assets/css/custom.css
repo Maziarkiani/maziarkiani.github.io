@@ -5,10 +5,4 @@
     padding-right: 1.5rem !important;
     box-sizing: border-box !important;
   }
-}
 
-/* 2. Justify text across the entire website */
-p, .article-style, .prose, .pub-list-item, .summary {
-  text-align: justify !important;
-  hyphens: auto; /* This prevents ugly "rivers of white space" in justified text */
-}
