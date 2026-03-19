@@ -1,8 +1,14 @@
-/* 1. Force left/right padding on ALL possible mobile containers */
+/* 1. Fix mobile margins ONLY for text and lists (keeps backgrounds full-width) */
 @media (max-width: 767px) {
-  .page-body, #main-content, main, section, article, .hb-main {
-    padding-left: 1.5rem !important;
-    padding-right: 1.5rem !important;
-    box-sizing: border-box !important;
+  .prose, .article-style, .stream-item, .article-container {
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
   }
+}
 
+/* 2. Justify ONLY the main reading text (abstracts, bio paragraphs, summaries) */
+/* This safely ignores your centered profile name, role, and buttons */
+.prose p, .article-style p, .article-style li, .summary {
+  text-align: justify !important;
+  hyphens: auto;
+}
