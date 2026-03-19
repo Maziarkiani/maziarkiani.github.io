@@ -14,13 +14,13 @@
 
   /* 3. Bio Text Fix: Manually add padding back to the summary paragraph only */
   .bio-text {
-    padding-left: 0.7rem !important;
-    padding-right: 0.7rem !important;
+    padding-left: 0.6rem !important;
+    padding-right: 0.6rem !important;
   }
 }
 
 /* 4. Global Justification: Keeps all paragraphs and lists perfectly aligned */
-.view-citation, .stream-item, .pub-list-item, .prose p, .prose li, .hb-prose p, .hb-prose li {
+.view-citation, .stream-item, .pub-list-item, .prose p, .prose li, .hb-prose p, .hb-prose li, .pub-abstract, .article-style p {
   text-align: justify !important;
   hyphens: auto;
 }
