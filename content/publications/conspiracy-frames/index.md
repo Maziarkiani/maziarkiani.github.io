@@ -4,7 +4,7 @@ title: '[FORTHCOMING] Conspiracy Frame: a Semiotically-Driven Approach for Consp
 authors:
   - Heidi Campana Piva
   - Shaina Ashraf
-  - me
+  - **me**
   - Arianna Longo
   - Rossana Damiano
   - Lucie Flek
@@ -19,8 +19,8 @@ publishDate: '2026-03-19T00:00:00Z'
 # Publication type: 1 = Conference paper
 publication_types: ['1']
 
-publication: '**[FORTHCOMING]**'
-publication_short: '**[FORTHCOMING]**'
+publication: '**[UNDER REVIEW]**'
+publication_short: '**[UNDER REVIEW]**'
 
 abstract: 'Conspiracy theories are anti-authoritarian narratives that lead to social conflict, impacting how people perceive political information. To help in understanding this issue, we introduce the Conspiracy Frame: a fine-grained semantic representation of conspiratorial narratives derived from frame-semantics and semiotics, which spawned the Conspiracy Frames (Con.Fra.) dataset: a corpus of Telegram messages annotated at span-level. The Conspiracy Frame and Con.Fra. dataset contribute to the implementation of a more generalizable understanding and recognition of conspiracy theories. We observe the ability of LLMs to recognize this phenomenon in-domain and out-of-domain, investigating the role that frames may have in supporting this task. Results show that, while the injection of frames in an in-context approach does not lead to clear increase of performance, it has potential; the mapping of annotated spans with FrameNet shows abstract semantic patterns (e.g., Kinship, Ingest_substance) that potentially pave the way for a more semantically- and semiotically-aware detection of conspiratorial narratives.'
 
