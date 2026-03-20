@@ -10,7 +10,7 @@ authors:
   - Lucie Flek
   - Marco Antonio Stranisci
 
-date: '2026-08-01T00:00:00Z'
+date: '2026-03-20T00:00:00Z'
 doi: ''
 
 # Schedule page publish date
@@ -31,7 +31,6 @@ tags:
   - Frame Semantics
   - Large Language Models
   - In-Context Learning
-  - ACL 2026
 
 featured: true
 
