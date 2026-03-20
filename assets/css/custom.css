@@ -25,9 +25,8 @@
   hyphens: auto;
 }
 
-/* 5. Permanently remove the Professional Summary heading without leaving a gap */
-h2.text-xl.font-bold.tracking-tight:has(~ .prose),
-h2.text-xl.font-bold.tracking-tight:has(+ .prose),
-h2.text-xl.font-bold.tracking-tight:first-of-type {
+/* 5. Permanently remove the Professional Summary wrapper (Heading AND Icon) */
+div.flex.items-center.gap-4.mb-8:has(h2.text-xl.tracking-tight):first-of-type,
+div.flex.items-center.gap-4.mb-8:has(~ .prose) {
     display: none !important;
 }
