@@ -24,3 +24,10 @@
   text-align: justify !important;
   hyphens: auto;
 }
+
+/* 5. Permanently remove the Professional Summary heading without leaving a gap */
+h2.text-xl.font-bold.tracking-tight:has(~ .prose),
+h2.text-xl.font-bold.tracking-tight:has(+ .prose),
+h2.text-xl.font-bold.tracking-tight:first-of-type {
+    display: none !important;
+}
