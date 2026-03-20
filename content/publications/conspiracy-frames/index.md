@@ -22,7 +22,7 @@ publication_types: ['1']
 publication: '**[UNDER REVIEW]**'
 publication_short: '**[UNDER REVIEW]**'
 
-abstract: 'Conspiracy theories are anti-authoritarian narratives that lead to social conflict, impacting how people perceive political information. To help in understanding this issue, we introduce the Conspiracy Frame: a fine-grained semantic representation of conspiratorial narratives derived from frame-semantics and semiotics, which spawned the Conspiracy Frames (Con.Fra.) dataset: a corpus of Telegram messages annotated at span-level. The Conspiracy Frame and Con.Fra. dataset contribute to the implementation of a more generalizable understanding and recognition of conspiracy theories. We observe the ability of LLMs to recognize this phenomenon in-domain and out-of-domain, investigating the role that frames may have in supporting this task. Results show that, while the injection of frames in an in-context approach does not lead to clear increase of performance, it has potential; the mapping of annotated spans with FrameNet shows abstract semantic patterns (e.g., Kinship, Ingest_substance) that potentially pave the way for a more semantically- and semiotically-aware detection of conspiratorial narratives.'
+abstract: 'Abstract temporarily withheld to preserve double-blind peer review integrity. The full abstract and manuscript will be made available upon completion of the review cycle.'
 
 summary: 'Introducing the Conspiracy Frame and Con.Fra. dataset to understand and detect conspiratorial narratives using frame-semantics, semiotics, and Large Language Models.'
 
