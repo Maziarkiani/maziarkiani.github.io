@@ -31,8 +31,7 @@ div.flex.items-center.gap-4.mb-8:has(~ .prose) {
     display: none !important;
 }
 
-/* Remove the redundant author bio card at the bottom of pages */
-.article-widget.content-widget-hr,
-.author-card {
+/* Remove the redundant Tailwind author bio card at the bottom of pages */
+div.flex.pt-12.pb-4:has(img[alt="Maziar Kianimoghadam Jouneghani"]) {
     display: none !important;
 }
