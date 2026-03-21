@@ -30,3 +30,9 @@ div.flex.items-center.gap-4.mb-8:has(h2.text-xl.tracking-tight):first-of-type,
 div.flex.items-center.gap-4.mb-8:has(~ .prose) {
     display: none !important;
 }
+
+/* Remove the redundant author bio card at the bottom of pages */
+.article-widget.content-widget-hr,
+.author-card {
+    display: none !important;
+}
