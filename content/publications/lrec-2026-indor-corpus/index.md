@@ -1,5 +1,5 @@
 ---
-title: '[FORTHCOMING] Beyond Fake News Detection: A Community-based Study of the Multicultural Nature of Information Disorder'
+title: 'Beyond Fake News Detection: A Community-based Study of the Multicultural Nature of Information Disorder'
 
 authors:
   - Sara Gemelli
