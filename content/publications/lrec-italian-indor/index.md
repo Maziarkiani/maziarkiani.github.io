@@ -1,5 +1,5 @@
 ---
-title: '[UNDER REVIEW] Linguistically-Motivated Classifiers vs. Zero-Shot LLMs: Benchmarking Information Disorder Detection on the Italian InDor Corpus'
+title: 'Linguistically-Motivated Classifiers vs. Zero-Shot LLMs: Benchmarking Information Disorder Detection on the Italian InDor Corpus'
 
 authors:
   - me
