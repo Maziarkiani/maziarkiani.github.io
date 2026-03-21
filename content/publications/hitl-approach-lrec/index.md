@@ -1,5 +1,5 @@
 ---
-title: '[UNDER REVIEW] Culturally Adaptive Explainable LLM Assessment for Multilingual Information Disorder: A Human-in-the-Loop Approach'
+title: 'Culturally Adaptive Explainable LLM Assessment for Multilingual Information Disorder: A Human-in-the-Loop Approach'
 
 authors:
   - me
