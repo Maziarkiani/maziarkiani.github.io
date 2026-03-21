@@ -21,8 +21,8 @@ document.addEventListener("DOMContentLoaded", function() {
     metaBlocks.forEach(function(block) {
         // Replace your plain text name with a bold HTML span
         const targetName = "Maziar Kianimoghadam Jouneghani";
-        const boldName = '<span style="font-weight: 800; color: var(--color-primary-600);">' + targetName + '</span>';
-        
+        const boldName = '<span style="font-weight: 800;">' + targetName + '</span>';
+      
         // Only replace if the name exists and isn't already inside an HTML tag
         if (block.innerHTML.includes(targetName)) {
             block.innerHTML = block.innerHTML.split(targetName).join(boldName);
