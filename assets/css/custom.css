@@ -30,3 +30,10 @@ div.flex.items-center.gap-4.mb-8:has(h2.text-xl.tracking-tight):first-of-type,
 div.flex.items-center.gap-4.mb-8:has(~ .prose) {
     display: none !important;
 }
+
+/* Bold my name in publication author lists only */
+.article-metadata a[href="/"],
+.article-metadata a[href="https://maziarkiani.github.io/"] {
+    font-weight: 800 !important;
+    color: var(--color-primary-600) !important;
+}
