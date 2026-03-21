@@ -12,3 +12,21 @@
   "url": "https://maziarkiani.github.io/"
 }
 </script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Find all blocks that contain publication metadata/authors
+    const metaBlocks = document.querySelectorAll('.article-metadata, .stream-meta');
+    
+    metaBlocks.forEach(function(block) {
+        // Replace your plain text name with a bold HTML span
+        const targetName = "Maziar Kianimoghadam Jouneghani";
+        const boldName = '<span style="font-weight: 800; color: var(--color-primary-600);">' + targetName + '</span>';
+        
+        // Only replace if the name exists and isn't already inside an HTML tag
+        if (block.innerHTML.includes(targetName)) {
+            block.innerHTML = block.innerHTML.split(targetName).join(boldName);
+        }
+    });
+});
+</script>
