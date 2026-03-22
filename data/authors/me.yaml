@@ -89,7 +89,7 @@ experience:
 skills:
   - name: Programming and Tools
     items:
-      - label: Python (data handling, analysis, and research prototyping)
+      - label: Python (data preprocessing, NLP pipeline scripting, evaluation scripts, API integration, prompt-based experimentation, and research prototyping)
       - label: Hugging Face Transformers
   - name: NLP Methodologies
     items:
