@@ -36,23 +36,19 @@ div.flex.pt-12.pb-4:has(img[alt="Maziar Kianimoghadam Jouneghani"]) {
     display: none !important;
 }
 
-/* Fix the alignment and stretching in the skills widget */
-.skills-content {
-    display: block !important;
+/* Force left-alignment and kill ALL justification in the skills widget for ALL screen sizes */
+.skills-content, 
+.skills-name,
+.skills-name.text-gray-700 {
     text-align: left !important;
-    width: 100% !important;
-}
-
-.skills-name {
-    display: inline !important;
-    text-align: left !important;
+    text-justify: none !important;
     word-spacing: normal !important;
     letter-spacing: normal !important;
+    white-space: normal !important;
+    display: inline-block !important; /* This stops flexbox from stretching the words */
 }
 
-/* Optional: Add a little breathing room between the columns on desktop */
-@media (min-width: 768px) {
-    .skills-content {
-        padding-right: 1.5rem;
-    }
+/* Ensure the parent columns aren't forcing the stretch */
+.featurette-item {
+    text-align: left !important;
 }
