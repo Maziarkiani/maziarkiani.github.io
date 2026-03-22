@@ -36,9 +36,23 @@ div.flex.pt-12.pb-4:has(img[alt="Maziar Kianimoghadam Jouneghani"]) {
     display: none !important;
 }
 
-/* Force left-alignment in the skills widget to prevent weird text stretching */
-.skills-widget, 
-.skills-widget .featurette-item, 
-.skills-widget p {
+/* Fix the alignment and stretching in the skills widget */
+.skills-content {
+    display: block !important;
     text-align: left !important;
+    width: 100% !important;
+}
+
+.skills-name {
+    display: inline !important;
+    text-align: left !important;
+    word-spacing: normal !important;
+    letter-spacing: normal !important;
+}
+
+/* Optional: Add a little breathing room between the columns on desktop */
+@media (min-width: 768px) {
+    .skills-content {
+        padding-right: 1.5rem;
+    }
 }
