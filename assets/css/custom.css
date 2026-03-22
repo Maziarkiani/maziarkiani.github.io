@@ -61,11 +61,10 @@ div.flex.pt-12.pb-4:has(img[alt="Maziar Kianimoghadam Jouneghani"]) {
         column-gap: 5rem !important; /* Adjust this number (e.g., 4rem, 6rem) to make it wider or narrower */
     }
 
-    /* Fallback if your theme uses Flexbox/Bootstrap columns */
-    .skills-widget .featurette:nth-child(odd) {
-        padding-right: 3rem !important; 
-    }
-    .skills-widget .featurette:nth-child(even) {
-        padding-left: 3rem !important;
+    /* Increase the space between the two columns on desktop view */
+@media (min-width: 768px) {
+    .blox-resume-skills .grid {
+        column-gap: 5rem !important; /* Spreads the left and right columns apart */
+        row-gap: 3rem !important;    /* Adds a bit more breathing room top-to-bottom between the sections */
     }
 }
