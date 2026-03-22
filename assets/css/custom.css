@@ -58,7 +58,7 @@ div.flex.pt-12.pb-4:has(img[alt="Maziar Kianimoghadam Jouneghani"]) {
     /* If your theme uses CSS Grid */
     .skills-widget .grid,
     .wg-skills .grid {
-        column-gap: 5rem !important; /* Adjust this number (e.g., 4rem, 6rem) to make it wider or narrower */
+        column-gap: 6rem !important; /* Adjust this number (e.g., 4rem, 6rem) to make it wider or narrower */
     }
 
     /* Increase the space between the two columns on desktop view */
