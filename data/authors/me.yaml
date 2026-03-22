@@ -89,28 +89,28 @@ experience:
 skills:
   - name: Programming & Tools
     items:
-      - label: Python (NLP & Data Preprocessing)
-      - label: API Integration & Scripting
-      - label: Hugging Face Transformers
+      - label: "• Python (NLP & Data Preprocessing)"
+      - label: "• API Integration & Scripting"
+      - label: "• Hugging Face Transformers"
   - name: NLP Methodologies
     items:
-      - label: In-Context Learning (ICL)
-      - label: Prompt Engineering
-      - label: Model Evaluation (LLMs & Classifiers)
+      - label: "• In-Context Learning (ICL)"
+      - label: "• Prompt Engineering"
+      - label: "• Model Evaluation (LLMs & Classifiers)"
   - name: Data & Linguistic Research
     items:
-      - label: Multilingual Dataset Curation
-      - label: Annotation Schema Design
+      - label: "• Multilingual Dataset Curation"
+      - label: "• Annotation Schema Design"
   - name: SEO & Digital Marketing
     items:
-      - label: Technical & On-Page SEO
-      - label: Content Strategy
+      - label: "• Technical & On-Page SEO"
+      - label: "• Content Strategy"
   - name: Web & Analytics
     items:
-      - label: WordPress & HTML
-      - label: Ahrefs & Screaming Frog
-      - label: Google Search Console
-      - label: Google Analytics & Ads
+      - label: "• WordPress & HTML"
+      - label: "• Ahrefs & Screaming Frog"
+      - label: "• Google Search Console"
+      - label: "• Google Analytics & Ads"
 
 languages:
   - name: Persian (Native)
