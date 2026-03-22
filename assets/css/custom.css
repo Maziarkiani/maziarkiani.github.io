@@ -52,3 +52,20 @@ div.flex.pt-12.pb-4:has(img[alt="Maziar Kianimoghadam Jouneghani"]) {
 .featurette-item {
     text-align: left !important;
 }
+
+/* Spread out the two columns on desktop view only */
+@media (min-width: 768px) {
+    /* If your theme uses CSS Grid */
+    .skills-widget .grid,
+    .wg-skills .grid {
+        column-gap: 5rem !important; /* Adjust this number (e.g., 4rem, 6rem) to make it wider or narrower */
+    }
+
+    /* Fallback if your theme uses Flexbox/Bootstrap columns */
+    .skills-widget .featurette:nth-child(odd) {
+        padding-right: 3rem !important; 
+    }
+    .skills-widget .featurette:nth-child(even) {
+        padding-left: 3rem !important;
+    }
+}
