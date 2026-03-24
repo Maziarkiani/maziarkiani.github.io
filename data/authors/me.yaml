@@ -90,27 +90,27 @@ skills:
   - name: Programming & Tools
     items:
       - label: "Python (data preprocessing and evaluation scripts)"
-      - label: "• NLP pipeline scripting and research prototyping"
-      - label: "• Hugging Face Transformers"
+      - label: "NLP pipeline scripting and research prototyping"
+      - label: "Hugging Face Transformers"
   - name: NLP Methodologies
     items:
-      - label: "• In-context learning (ICL)"
-      - label: "• Human-in-the-loop workflows"
-      - label: "• Model evaluation (LLMs and classifiers)"
+      - label: "In-context learning (ICL)"
+      - label: "Human-in-the-loop workflows"
+      - label: "Model evaluation (LLMs and classifiers)"
   - name: Data & Linguistic Research
     items:
-      - label: "• Multilingual dataset curation"
-      - label: "• Annotation workflows and linguistic analysis"
+      - label: "Multilingual dataset curation"
+      - label: "Annotation workflows and linguistic analysis"
   - name: SEO & Digital Marketing
     items:
-      - label: "• Technical and on-page SEO"
-      - label: "• Content strategy"
+      - label: "Technical and on-page SEO"
+      - label: "Content strategy"
   - name: Web & Analytics
     items:
-      - label: "• WordPress and HTML"
-      - label: "• Ahrefs and Screaming Frog"
-      - label: "• Google Search Console"
-      - label: "• Google Analytics and Ads"
+      - label: "WordPress and HTML"
+      - label: "Ahrefs and Screaming Frog"
+      - label: "Google Search Console"
+      - label: "Google Analytics and Ads"
       
 languages:
   - name: Persian (Native)
