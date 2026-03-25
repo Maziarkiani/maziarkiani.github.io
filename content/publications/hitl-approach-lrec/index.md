@@ -17,7 +17,7 @@ publishDate: '2026-03-01T00:00:00Z'
 publication_types: ['3']
 
 publication: '**[ACCEPTED]** — To be presented at the *Information Disorder Workshop (InDor26) at LREC 2026*, Palma de Mallorca, Spain (Non-archival; ongoing work)'
-publication_short: '**[ACCEPTED]** LREC 2026 - InDor26 Workshop (Non-archival)'
+publication_short: '**[ACCEPTED]** LREC 2026 - InDor26 Workshop'
 
 abstract: "Recognizing disinformation is challenging because news interpretation heavily depends on cultural context. Existing Large Language Models (LLMs) rarely account for these differences, operating as monocultural, English-centric 'black boxes'. Preliminary evidence from the Information Disorder (InDor) corpus suggests that current LLMs struggle to capture how manipulated news manifests across diverse cultures. To address this gap, this thesis proposes a Hybrid Intelligence Loop: a human-in-the-loop (HITL) framework combining expert curation with Culturally Adaptive Prompting. By transitioning from static baselines to an architecture using English task instructions paired with dynamically retrieved, expert-curated target-culture references via In-Context Learning (ICL), this ongoing work aims to mitigate cultural bias and outlines a pilot design to evaluate LLM explainability across diverse linguistic backgrounds."
 
