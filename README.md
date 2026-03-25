@@ -1,4 +1,4 @@
-# Maziar Kianimoghadam Jouneghani Academic Web-page
+# Maziar Kianimoghadam Jouneghani's Web-page
 
 This repository contains the source code for my personal web-page. 
 
