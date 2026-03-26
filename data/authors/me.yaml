@@ -121,9 +121,3 @@ languages:
     percent: 95
   - name: Italian (A2)
     percent: 30
-
-awards:
-  - title: Optimization Certificate
-    awarder: DTU - EIT HEI
-    date: "2024-04-01"
-    icon: hero/academic-cap
