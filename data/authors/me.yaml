@@ -35,6 +35,8 @@ links:
     url: https://linkedin.com/in/maziar-kiani/
   - icon: academicons/orcid
     url: https://orcid.org/0009-0007-1294-9263
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=qfEf1ZcAAAAJ
 
 education:
   - degree: M.Sc. in Language Technologies and Digital Humanities
