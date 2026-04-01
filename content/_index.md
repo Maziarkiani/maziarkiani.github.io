@@ -15,26 +15,26 @@ design:
 sections:
   # ==============================================================================
   # 2. BIO & PROFILE SECTION (Top of page)
-  # Displays your avatar, name, social links, summary, and skills.
-  # (Pulls data automatically from 'data/authors/me.yaml')
   # ==============================================================================
   - block: resume-biography-3
     content:
       username: me
       text: ''
-      # The section titles you want to display in the right column
+      # The button remains removed as requested!
+      
+      # We kept 'education' here so the two boxes show up, 
+      # but we completely removed 'experience' so your jobs stay hidden!
       headings:
         about: ''
+        education: 'Education'
         interests: ''
         skills: 'Technical and Research Skills'
     
     design:
-      # The animated purple/blue background
       background:
         gradient_mesh:
           enable: true
 
-      # Typography and image styling
       name:
         size: md 
       avatar:
@@ -46,23 +46,7 @@ sections:
         padding: ['3rem', '0', '1rem', '0'] 
 
   # ==============================================================================
-  # 3. EDUCATION & EXPERIENCE SECTION (Middle of page)
-  # Generates a full-width timeline of your academic and industry background.
-  # (Pulls data automatically from 'data/authors/me.yaml')
-  # ==============================================================================
-  - block: experience
-    content:
-      title: Education & Experience
-      username: me
-    design:
-      # Breathing room above and below the timeline
-      spacing:
-        padding: ['2rem', '0', '3rem', '0']
-  
-  # ==============================================================================
-  # 4. RECENT PUBLICATIONS SECTION (Bottom of page)
-  # Automatically lists your papers in a clean citation format.
-  # (Pulls data from markdown files inside your 'content/publication/' folder)
+  # 3. RECENT PUBLICATIONS SECTION (Bottom of page)
   # ==============================================================================
   - block: collection
     content:
@@ -75,7 +59,7 @@ sections:
     design:
       view: citation
       
-      # Manual Spacing Override to pull it tighter to the timeline above
+      # Manual Spacing Override to pull it tighter to the section above
       spacing:
         padding: ['1rem', '0', '1rem', '0']
 ---
