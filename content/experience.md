@@ -5,7 +5,7 @@ type: landing
 
 design:
   # 1. Shrink the default global spacing
-  spacing: '2rem'
+  spacing: 4rem'
 
 # Page sections
 sections:
