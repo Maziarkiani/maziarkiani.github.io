@@ -115,7 +115,7 @@ section:has(.view-citation) {
     /* e) Break Education out, limit width to match Publications (48rem), and center it! */
     .blox-resume-biography-3 .md\:col-span-8 > .mb-16:has(h3) {
         grid-column: 1 / 3 !important; 
-        margin-top: 3rem !important;
+        margin-top: 1rem !important;
         max-width: 48rem !important; /* This matches the max-w-3xl used by your Publications */
         width: 100% !important;
         margin-left: auto !important;
