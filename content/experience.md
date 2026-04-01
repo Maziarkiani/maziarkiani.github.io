@@ -4,9 +4,8 @@ date: 2023-10-24
 type: landing
 
 design:
-  spacing: '5rem'
-
-# Note: `username` refers to the user's folder name in `content/authors/`
+  # 1. Shrink the default global spacing
+  spacing: '2rem'
 
 # Page sections
 sections:
@@ -14,16 +13,25 @@ sections:
     content:
       username: me
     design:
-      # Hugo date format
       date_format: 'January 2006'
-      # Education or Experience section first?
       is_education_first: false
+      # 2. Add manual tight spacing (Top, Right, Bottom, Left)
+      spacing:
+        padding: ['1rem', '0', '1rem', '0']
+
   - block: resume-skills
     content:
       title: Skills & Tools
       username: me
+    design:
+      spacing:
+        padding: ['1rem', '0', '1rem', '0']
+
   - block: resume-languages
     content:
       title: Languages
       username: me
+    design:
+      spacing:
+        padding: ['1rem', '0', '2rem', '0']
 ---
