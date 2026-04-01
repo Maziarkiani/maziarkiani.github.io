@@ -1,31 +1,39 @@
-/* 1. Perfect 1.5rem margins for standalone pages (like Publications) */
+/* ==========================================================================
+   1. GLOBAL PAGE PADDING & JUSTIFICATION
+   ========================================================================== */
+
+/* Perfect 1.5rem margins for standalone pages (like Publications) */
 @media (max-width: 767px) {
-  .view-citation, .stream-item, .prose, .hb-prose {
-    padding-left: 1.5rem !important;
-    padding-right: 1.5rem !important;
-    box-sizing: border-box !important;
-  }
+    .view-citation, .stream-item, .prose, .hb-prose {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+        box-sizing: border-box !important;
+    }
   
-  /* 2. Homepage Fix: Cancel our custom padding ONLY inside homepage sections */
-  section .prose, section .view-citation, section .stream-item, section .hb-prose {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
+    /* Homepage Fix: Cancel our custom padding ONLY inside homepage sections */
+    section .prose, section .view-citation, section .stream-item, section .hb-prose {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
 
-  /* 3. Bio Text Fix: Manually add padding back to the summary paragraph only */
-  .bio-text {
-    padding-left: 0.6rem !important;
-    padding-right: 0.6rem !important;
-  }
+    /* Bio Text Fix: Manually add padding back to the summary paragraph only */
+    .bio-text {
+        padding-left: 0.6rem !important;
+        padding-right: 0.6rem !important;
+    }
 }
 
-/* 4. Global Justification: Keeps all paragraphs and lists perfectly aligned */
+/* Global Justification: Keeps all paragraphs and lists perfectly aligned */
 .view-citation, .stream-item, .pub-list-item, .prose p, .prose li, .hb-prose p, .hb-prose li, .max-w-prose.grid div {
-  text-align: justify !important;
-  hyphens: auto;
+    text-align: justify !important;
+    hyphens: auto;
 }
 
-/* 5. Permanently remove the Professional Summary wrapper (Heading AND Icon) */
+/* ==========================================================================
+   2. GLOBAL CLEANUP (REMOVING REDUNDANT THEME ELEMENTS)
+   ========================================================================== */
+
+/* Permanently remove the Professional Summary wrapper (Heading AND Icon) */
 div.flex.items-center.gap-4.mb-8:has(h2.text-xl.tracking-tight):first-of-type,
 div.flex.items-center.gap-4.mb-8:has(~ .prose) {
     display: none !important;
@@ -35,6 +43,10 @@ div.flex.items-center.gap-4.mb-8:has(~ .prose) {
 div.flex.pt-12.pb-4:has(img[alt="Maziar Kianimoghadam Jouneghani"]) {
     display: none !important;
 }
+
+/* ==========================================================================
+   3. SKILLS FORMATTING (Used in Homepage Bio Block)
+   ========================================================================== */
 
 /* Force left-alignment, kill justification, AND kill ALL CAPS in the skills widget */
 .skills-content, 
@@ -46,7 +58,7 @@ div.flex.pt-12.pb-4:has(img[alt="Maziar Kianimoghadam Jouneghani"]) {
     letter-spacing: normal !important;
     white-space: normal !important;
     display: inline-block !important; 
-    text-transform: none !important; /* <--- THIS KILLS THE ALL CAPS! */
+    text-transform: none !important; /* Kills the ALL CAPS */
 }
 
 /* Ensure the parent columns aren't forcing the stretch */
@@ -56,20 +68,17 @@ div.flex.pt-12.pb-4:has(img[alt="Maziar Kianimoghadam Jouneghani"]) {
 
 /* Spread out the two columns on desktop view only */
 @media (min-width: 768px) {
-    /* If your theme uses CSS Grid */
     .skills-widget .grid,
     .wg-skills .grid {
-        column-gap: 6rem !important; /* Adjust this number (e.g., 4rem, 6rem) to make it wider or narrower */
-    }
-
-    /* Increase the space between the two columns on desktop view */
-    .blox-resume-skills .grid {
-        column-gap: 5rem !important; /* Spreads the left and right columns apart */
-        row-gap: 3rem !important;    /* Adds a bit more breathing room top-to-bottom between the sections */
+        column-gap: 6rem !important; 
     }
 }
 
-/* 6. The Sledgehammer: Mobile vs Desktop padding on the Bio block */
+/* ==========================================================================
+   4. HOMEPAGE LAYOUT & SPACING
+   ========================================================================== */
+
+/* The Sledgehammer: Mobile vs Desktop padding on the Bio block */
 section.blox-resume-biography-3,
 section.blox-resume-biography-3 .resume-biography {
     padding-top: 1rem !important; /* DEFAULT FOR MOBILE: Keeps it tight */
@@ -83,13 +92,21 @@ section.blox-resume-biography-3 .resume-biography {
     }
 }
 
-/* 7. Force the Publications section to pull tight against the Bio section */
+/* Force the Publications section to pull tight against the Bio section */
 section:has(.view-citation) {
     padding-top: 3rem !important;
     margin-top: 0 !important;
 }
 
-/* 8. The Ultimate Layout Fix: Push Avatar Left & Make Education Centered/Matching Pubs */
+/* Pull the Publications list tighter to the "Recent Publications" heading */
+section.blox-collection .container.max-w-3xl {
+    margin-top: 2rem !important; /* Default was 5rem (sm:mt-20) */
+}
+
+/* ==========================================================================
+   5. THE ULTIMATE DESKTOP LAYOUT (Avatar Left, Education Centered)
+   ========================================================================== */
+
 @media (min-width: 768px) {
     /* a) Redefine the main layout grid */
     .blox-resume-biography-3 .grid.md\:grid-cols-12 {
@@ -117,7 +134,7 @@ section:has(.view-citation) {
     .blox-resume-biography-3 .md\:col-span-8 > .mb-16:has(h3) {
         grid-column: 1 / 3 !important; 
         margin-top: 1rem !important;
-        max-width: 48rem !important; /* This matches the max-w-3xl used by your Publications */
+        max-width: 48rem !important; 
         width: 100% !important;
         margin-left: auto !important;
         margin-right: auto !important;
@@ -142,35 +159,22 @@ section:has(.view-citation) {
     gap: 0 !important;
 }
 
-/* 9. Pull the Publications list tighter to the "Recent Publications" heading */
-section.blox-collection .container.max-w-3xl {
-    margin-top: 2rem !important; /* Default was 5rem (sm:mt-20). Decrease this to pull it higher! */
-}
+/* ==========================================================================
+   6. MOBILE HEADER FIX
+   ========================================================================== */
 
-/* 10. Mobile Header Fix: Shorten Site Title to prevent menu wrapping */
+/* Shorten Site Title to prevent menu wrapping on small screens */
 @media (max-width: 767px) {
-    /* 1. Target the actual brand link and shrink the original text to invisible */
+    /* Target the actual brand link and shrink the original text to invisible */
     .header .navbar-brand {
         font-size: 0 !important; 
     }
     
-    /* 2. Inject the new, shorter mobile name right on top of it */
+    /* Inject the new, shorter mobile name right on top of it */
     .header .navbar-brand::after {
-        content: "Maziar K. J."; /* <--- Edit this to "MKJ" or whatever fits best! */
-        font-size: 1.25rem !important; /* Restores the visible size */
-        font-weight: 700 !important; /* Keeps it bold and prominent */
+        content: "Maziar K. J."; 
+        font-size: 1.25rem !important; 
+        font-weight: 700 !important; 
         visibility: visible !important;
-    }
-}
-
-/* 11. Mobile Language Circles: Force a 2x2 Grid on mobile/tablets */
-@media (max-width: 1023px) {
-    .blox-resume-languages .flex-col.lg\:flex-row {
-        display: grid !important;
-        grid-template-columns: repeat(2, minmax(0, 1fr)) !important; /* 2 equal columns */
-        row-gap: 2.5rem !important; /* Space between top and bottom rows */
-        column-gap: 1rem !important; /* Space between left and right columns */
-        width: 100% !important;
-        align-items: center !important;
     }
 }
