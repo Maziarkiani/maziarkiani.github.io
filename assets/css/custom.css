@@ -148,17 +148,16 @@ section.blox-collection .container.max-w-3xl {
 
 /* 10. Mobile Header Fix: Shorten Site Title to prevent menu wrapping */
 @media (max-width: 767px) {
-    /* Target the site title text inside the top header */
-    header a[href="/"] span {
+    /* 1. Target the actual brand link and shrink the original text to invisible */
+    .header .navbar-brand {
         font-size: 0 !important; 
-        display: inline-block;
     }
     
-    /* Inject the new, shorter name */
-    header a[href="/"] span::after {
-        content: "Maziar K. J."; /* <--- Change this to "MKJ" or whatever you prefer! */
-        font-size: 1.25rem !important; /* Restores the standard header text size */
-        font-weight: bold !important;
-        line-height: normal !important;
+    /* 2. Inject the new, shorter mobile name right on top of it */
+    .header .navbar-brand::after {
+        content: "Maziar K. J."; /* <--- Edit this to "MKJ" or whatever fits best! */
+        font-size: 1.25rem !important; /* Restores the visible size */
+        font-weight: 700 !important; /* Keeps it bold and prominent */
+        visibility: visible !important;
     }
 }
