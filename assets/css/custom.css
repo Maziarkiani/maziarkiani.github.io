@@ -36,7 +36,7 @@ div.flex.pt-12.pb-4:has(img[alt="Maziar Kianimoghadam Jouneghani"]) {
     display: none !important;
 }
 
-/* Force left-alignment and kill ALL justification in the skills widget for ALL screen sizes */
+/* Force left-alignment, kill justification, AND kill ALL CAPS in the skills widget */
 .skills-content, 
 .skills-name,
 .skills-name.text-gray-700 {
@@ -45,7 +45,8 @@ div.flex.pt-12.pb-4:has(img[alt="Maziar Kianimoghadam Jouneghani"]) {
     word-spacing: normal !important;
     letter-spacing: normal !important;
     white-space: normal !important;
-    display: inline-block !important; /* This stops flexbox from stretching the words */
+    display: inline-block !important; 
+    text-transform: none !important; /* <--- THIS KILLS THE ALL CAPS! */
 }
 
 /* Ensure the parent columns aren't forcing the stretch */
