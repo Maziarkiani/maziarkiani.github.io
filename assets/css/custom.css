@@ -70,12 +70,12 @@ div.flex.pt-12.pb-4:has(img[alt="Maziar Kianimoghadam Jouneghani"]) {
 
 /* 6. The Sledgehammer: Crush Tailwind's responsive padding on the Bio block */
 section.blox-resume-biography-3 {
-    padding-top: 1rem !important; 
+    padding-top: 3rem !important; 
     padding-bottom: 0 !important;
 }
 
 section.blox-resume-biography-3 .resume-biography {
-    padding-top: 1rem !important; 
+    padding-top: 3rem !important; 
     padding-bottom: 0 !important;
 }
   
@@ -85,13 +85,58 @@ section:has(.view-citation) {
     margin-top: 0 !important;
 }
 
-/* 8. Fix Education/Skills Cards on Desktop: Stack them 1 up, 1 down, centered */
+/* 8. Fix Education Section on Desktop: advanced 'Breakout' from the right column.
+   Forces the stacked boxes to span the full page container, creating a balanced, centered section. */
 @media (min-width: 768px) {
-    /* Target ONLY the inner grid inside the education/experience blocks, NOT the main profile grid */
+    /* a) Reset the master container to not restrict width for children breakout */
+    .blox-resume-biography-3 {
+        position: relative;
+    }
+    
+    .blox-resume-biography-3 .resume-biography {
+        position: relative; /* Setup relative context */
+    }
+
+    /* b) Break the Education section out of the right column and stretch across the page.
+       Targets ONLY the mb-16:has(h3) section that contains Education. */
+    .blox-resume-biography-3 .mb-16:has(h3) {
+        position: relative !important;
+        width: 100vw !important; /* Take full viewport width */
+        left: 50% !important; /* Move left edge to the center */
+        right: 50% !important; /* Position relative to center */
+        margin-left: -50vw !important; /* Shift left to center the width */
+        margin-right: -50vw !important; /* Ensure match */
+        
+        /* Now that it's full-width, add a centering wrapper matching the main container width */
+        max-width: var(--container-width, 1280px); /* Use theme's container width */
+        margin-left: auto !important;
+        margin-right: auto !important;
+        
+        /* This keeps the boxes from stretching: Center the boxes within the full-width breakout */
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important; 
+    }
+    
+    /* c) Ensure the inner grid is stacked 1-up, 1-down and centered width. */
     .blox-resume-biography-3 .mb-16:has(h3) .grid {
-        grid-template-columns: 1fr !important; /* Force a single column (stacked vertically) */
-        max-width: 800px !important; /* Keep the boxes from stretching across the entire monitor */
-        margin-left: auto !important; 
-        margin-right: auto !important; /* Center the column nicely */
+        grid-template-columns: 1fr !important; /* Stacking: one column */
+        max-width: 800px !important; /* Prevent boxes from stretching across the entire monitor */
+        width: 100% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        column-gap: 0 !important;
+    }
+    
+    /* d) Clean up individual card text: Left-aligned with breathing room */
+    .blox-resume-biography-3 .grid > div {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    
+    .blox-resume-biography-3 .grid div.flex-1 {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+        text-align: left !important;
     }
 }
