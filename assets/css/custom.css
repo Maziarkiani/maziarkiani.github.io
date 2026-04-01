@@ -68,17 +68,20 @@ div.flex.pt-12.pb-4:has(img[alt="Maziar Kianimoghadam Jouneghani"]) {
     }
 }
 
-/* 6. The Sledgehammer: Crush Tailwind's responsive padding on the Bio block */
-section.blox-resume-biography-3 {
-    padding-top: 3rem !important; 
+/* 6. The Sledgehammer: Mobile vs Desktop padding on the Bio block */
+section.blox-resume-biography-3,
+section.blox-resume-biography-3 .resume-biography {
+    padding-top: 1rem !important; /* DEFAULT FOR MOBILE: Keeps it tight */
     padding-bottom: 0 !important;
 }
 
-section.blox-resume-biography-3 .resume-biography {
-    padding-top: 3rem !important; 
-    padding-bottom: 0 !important;
+@media (min-width: 768px) {
+    section.blox-resume-biography-3,
+    section.blox-resume-biography-3 .resume-biography {
+        padding-top: 3rem !important; /* DESKTOP ONLY: Pushes it down nicely */
+    }
 }
-  
+
 /* 7. Force the Publications section to pull tight against the Bio section */
 section:has(.view-citation) {
     padding-top: 1rem !important;
