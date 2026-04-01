@@ -14,7 +14,7 @@ sections:
       username: me
     design:
       date_format: 'January 2006'
-      is_education_first: false
+      is_education_first: true
       # 2. Add manual tight spacing (Top, Right, Bottom, Left)
       spacing:
         padding: ['1rem', '0', '1rem', '0']
