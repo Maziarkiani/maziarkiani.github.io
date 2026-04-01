@@ -40,6 +40,10 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
+        
+      # ADDED SPACING BLOCK: [Top, Right, Bottom, Left]
+      spacing:
+        padding: ['3rem', '0', '1rem', '0'] 
 
   - block: collection
     content:
@@ -51,4 +55,8 @@ sections:
         exclude_featured: false
     design:
       view: citation
+      
+      # ADDED SPACING BLOCK: [Top, Right, Bottom, Left]
+      spacing:
+        padding: ['1rem', '0', '3rem', '0']
 ---
