@@ -18,10 +18,8 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       headings:
         about: ''
-        education: ''
         interests: ''
         skills: 'Technical and Research Skills'
-        experience: 'Research and Work Experience'
     
     design:
       # Use the new Gradient Mesh which automatically adapts to the selected theme colors
@@ -41,7 +39,16 @@ sections:
       # ADDED SPACING BLOCK: [Top, Right, Bottom, Left]
       spacing:
         padding: ['3rem', '0', '1rem', '0'] 
-
+- block: experience
+    content:
+      title: Education & Experience
+      # Choose a user profile to display
+      username: me
+    design:
+      # Add nice top and bottom breathing room
+      spacing:
+        padding: ['2rem', '0', '3rem', '0']
+  
   - block: collection
     content:
       title: Recent Publications
