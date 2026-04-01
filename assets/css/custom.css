@@ -62,26 +62,52 @@ div.flex.pt-12.pb-4:has(img[alt="Maziar Kianimoghadam Jouneghani"]) {
     }
 
     /* Increase the space between the two columns on desktop view */
-@media (min-width: 768px) {
     .blox-resume-skills .grid {
         column-gap: 5rem !important; /* Spreads the left and right columns apart */
         row-gap: 3rem !important;    /* Adds a bit more breathing room top-to-bottom between the sections */
     }
-}
-/* 6. Force the top Bio block and its inner containers to shrink */
-section.blocks-resume-biography-3,
-section:has(.from-primary-100) {
-    padding-top: 1rem !important;
-    padding-bottom: 1rem !important;
+} /* <--- THIS WAS THE MISSING BRACKET! */
+
+/* 6. The Sledgehammer: Crush Tailwind's responsive padding on the Bio block */
+section.blox-resume-biography-3 {
+    padding-top: 1rem !important; 
+    padding-bottom: 0 !important;
 }
 
-section.blocks-resume-biography-3 > div {
-    padding-top: 0 !important;
-    margin-top: 0 !important;
+section.blox-resume-biography-3 .resume-biography {
+    padding-top: 1rem !important; 
+    padding-bottom: 0 !important;
 }
   
 /* 7. Force the Publications section to pull tight against the Bio section */
 section:has(.view-citation) {
     padding-top: 1rem !important;
     margin-top: 0 !important;
+}
+
+/* 8. Fix Education/Skills Cards on Desktop: Make them wider and spread out */
+@media (min-width: 768px) {
+    /* Target the Grid container inside the bio block */
+    .blox-resume-biography-3 .grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important; /* Force 2 equal columns */
+        column-gap: 3rem !important; /* Add space between the two cards */
+        width: 100% !important;
+        max-width: 100% !important; /* Prevent squishing in the center */
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    /* Make the individual cards rectangle-like and stretch full width of their column */
+    .blox-resume-biography-3 .grid > div {
+        max-width: 100% !important;
+        width: 100% !important;
+        display: block !important; /* Stops any flexing inside the card */
+    }
+    
+    /* Clean up the text inside: Align it nice and left with breathing room */
+    .blox-resume-biography-3 .grid div.flex-1 {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+        text-align: left !important;
+    }
 }
