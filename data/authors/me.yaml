@@ -37,6 +37,8 @@ links:
     url: https://orcid.org/0009-0007-1294-9263
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=qfEf1ZcAAAAJ
+  - icon: academicons/cv
+    url: https://maziarkiani.github.io/uploads/resume.pdf
 
 education:
   - degree: M.Sc. in Language Technologies and Digital Humanities
