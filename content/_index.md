@@ -58,5 +58,5 @@ sections:
       
       # ADDED SPACING BLOCK: [Top, Right, Bottom, Left]
       spacing:
-        padding: ['0.5rem', '0', '1rem', '0']
+        padding: ['1rem', '0', '1rem', '0']
 ---
