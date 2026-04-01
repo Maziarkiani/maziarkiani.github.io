@@ -1,54 +1,69 @@
 ---
-# Leave the homepage title empty to use the site title
+# ==============================================================================
+# 1. PAGE SETUP
+# Basic configurations for your homepage
+# ==============================================================================
 title: ''
 summary: ''
 date: 2022-10-24
 type: landing
 
 design:
-  # Default section spacing
+  # The default spacing applied between all sections globally
   spacing: '2.5rem'
 
 sections:
+  # ==============================================================================
+  # 2. BIO & PROFILE SECTION (Top of page)
+  # Displays your avatar, name, social links, summary, and skills.
+  # (Pulls data automatically from 'data/authors/me.yaml')
+  # ==============================================================================
   - block: resume-biography-3
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
       text: ''
-      # Show a call-to-action button under your biography? (optional)
+      # The section titles you want to display in the right column
       headings:
         about: ''
         interests: ''
         skills: 'Technical and Research Skills'
     
     design:
-      # Use the new Gradient Mesh which automatically adapts to the selected theme colors
+      # The animated purple/blue background
       background:
         gradient_mesh:
           enable: true
 
-      # Name heading sizing to accommodate long or short names
+      # Typography and image styling
       name:
-        size: md # Options: xs, sm, md, lg (default), xl
-
-      # Avatar customization
+        size: md 
       avatar:
-        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: circle # Options: circle (default), square, rounded
+        size: medium 
+        shape: circle 
         
-      # ADDED SPACING BLOCK: [Top, Right, Bottom, Left]
+      # Manual Spacing Override: [Top, Right, Bottom, Left]
       spacing:
         padding: ['3rem', '0', '1rem', '0'] 
-- block: experience
+
+  # ==============================================================================
+  # 3. EDUCATION & EXPERIENCE SECTION (Middle of page)
+  # Generates a full-width timeline of your academic and industry background.
+  # (Pulls data automatically from 'data/authors/me.yaml')
+  # ==============================================================================
+  - block: experience
     content:
       title: Education & Experience
-      # Choose a user profile to display
       username: me
     design:
-      # Add nice top and bottom breathing room
+      # Breathing room above and below the timeline
       spacing:
         padding: ['2rem', '0', '3rem', '0']
   
+  # ==============================================================================
+  # 4. RECENT PUBLICATIONS SECTION (Bottom of page)
+  # Automatically lists your papers in a clean citation format.
+  # (Pulls data from markdown files inside your 'content/publication/' folder)
+  # ==============================================================================
   - block: collection
     content:
       title: Recent Publications
@@ -60,7 +75,7 @@ sections:
     design:
       view: citation
       
-      # ADDED SPACING BLOCK: [Top, Right, Bottom, Left]
+      # Manual Spacing Override to pull it tighter to the timeline above
       spacing:
         padding: ['1rem', '0', '1rem', '0']
 ---
