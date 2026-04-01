@@ -25,7 +25,7 @@ sections:
       username: me
     design:
       spacing:
-        padding: ['1rem', '0', '1rem', '0']
+        padding: ['3rem', '0', '3rem', '0']
 
   - block: resume-languages
     content:
@@ -33,5 +33,5 @@ sections:
       username: me
     design:
       spacing:
-        padding: ['1rem', '0', '2rem', '0']
+        padding: ['3rem', '0', '3rem', '0']
 ---
