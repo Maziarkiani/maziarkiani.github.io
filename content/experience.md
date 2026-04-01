@@ -17,7 +17,7 @@ sections:
       is_education_first: true
       # 2. Add manual tight spacing (Top, Right, Bottom, Left)
       spacing:
-        padding: ['1rem', '0', '1rem', '0']
+        padding: ['2.5rem', '0', '2.5rem', '0']
 
   - block: resume-skills
     content:
