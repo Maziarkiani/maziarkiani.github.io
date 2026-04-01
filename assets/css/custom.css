@@ -68,13 +68,18 @@ div.flex.pt-12.pb-4:has(img[alt="Maziar Kianimoghadam Jouneghani"]) {
         row-gap: 3rem !important;    /* Adds a bit more breathing room top-to-bottom between the sections */
     }
 }
-/* 6. Force the top Bio block to shrink its massive top and bottom padding */
+/* 6. Force the top Bio block and its inner containers to shrink */
 section.blocks-resume-biography-3,
 section:has(.from-primary-100) {
-    padding-top: 3rem !important;
+    padding-top: 1rem !important;
     padding-bottom: 1rem !important;
 }
 
+section.blocks-resume-biography-3 > div {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+  
 /* 7. Force the Publications section to pull tight against the Bio section */
 section:has(.view-citation) {
     padding-top: 1rem !important;
