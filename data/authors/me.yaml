@@ -7,7 +7,7 @@ name:
   family: Kianimoghadam Jouneghani
   pronouns:
 status:
-  icon: "🎓"
+  icon: ""
 role: NLP Researcher
 bio: |
   I am an NLP and Computational Linguistics researcher currently pursuing my Master's degree in Language Technologies and Digital Humanities at University of Turin. My academic focus is on Large Language Models (LLMs), Explainable AI (XAI), and Human-in-the-Loop (HITL) retrieval-based frameworks.
@@ -53,75 +53,3 @@ education:
     end: 2017-02-28
     summary: |
       Focused on Linguistics and translation studies.
-
-experience:
-  - role: NLP Research Intern
-    org: aequa-tech, srl (Turin, Italy)
-    start: 2025-02-01
-    end: 2025-07-31
-    summary: |
-      * Collaborated within a 12-member international team on the multilingual InDor corpus, contributing to data collection, annotation, and baseline model benchmarking.
-  - role: Research Assistant
-    org: University of Turin (Cognitive Neuroscience Lab)
-    start: 2024-09-01
-    end: 2025-06-30
-    summary: |
-      * Assisted in EEG data collection and protocol management for a neuroaesthetics study evaluating brain responses to natural and artificial visual stimuli.
-      * Assisted in biometric data collection (ECG, EDA, HRV) for a gamification study analyzing physiological responses during cooperative and competitive problem-solving tasks.
-      * Analyzed physiological data using AcqKnowledge Data Acquisition and Ledalab.
-  - role: SEO and Digital Marketing Specialist
-    org: KiTalent (Turin, Italy)
-    start: 2025-05-01
-    end: 2025-08-31
-    summary: |
-      * Designed collaborative workflows to embed digital marketing and SEO requirements directly into PRDs and PBIs, enabling developers to seamlessly track optimizations and align with broader content strategies.
-      * Designed a risk-mitigated website migration ensuring maximum search equity preservation, and devised a data-driven SEO growth roadmap via comprehensive technical audits and competitive analysis both on-page and via Google Ads.
-  - role: SEO Specialist & Content Strategist
-    org: Mana Immigration Services
-    start: 2022-11-01
-    end: 2023-04-30
-    summary: |
-      * Re-engineered site architecture and executed a 500+ URL redirect plan to resolve keyword cannibalization, while elevating core content to Google's E-E-A-T standards through strategic internal linking and page updates.
-  - role: Content & SEO Specialist
-    org: Parsicanada Immigration Services
-    start: 2020-05-01
-    end: 2022-04-30
-    summary: |
-      * Managed a complete technical turnaround by resolving 50+ critical Search Console errors and re-engineering site UX.
-      * Bridged marketing and legal teams to develop and optimize over 100 user-centric, Google-compliant content pages, establishing the company as a leading online authority in a competitive industry and securing top-3 Google rankings for 30+ high-intent keywords.
-
-skills:
-  - name: Programming & Tools
-    items:
-      - label: "Python (data preprocessing and evaluation scripts)"
-      - label: "NLP pipeline scripting and research prototyping"
-      - label: "Hugging Face Transformers"
-  - name: NLP Methodologies
-    items:
-      - label: "In-context learning (ICL)"
-      - label: "Human-in-the-loop workflows"
-      - label: "Model evaluation (LLMs and classifiers)"
-  - name: Data & Linguistic Research
-    items:
-      - label: "Multilingual dataset curation"
-      - label: "Annotation workflows and linguistic analysis"
-  - name: SEO & Digital Marketing
-    items:
-      - label: "Technical and on-page SEO"
-      - label: "Content strategy"
-  - name: Web & Analytics
-    items:
-      - label: "WordPress and HTML"
-      - label: "Ahrefs and Screaming Frog"
-      - label: "Google Search Console"
-      - label: "Google Analytics and Ads"
-      
-languages:
-  - name: Persian (Native)
-    percent: 100
-  - name: Turkish (Native)
-    percent: 100
-  - name: English (C2)
-    percent: 95
-  - name: Italian (A2)
-    percent: 30
