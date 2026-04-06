@@ -13,10 +13,10 @@ doi: '10.48550/arXiv.2603.27356'
 # Schedule page publish date
 publishDate: '2026-03-31T00:00:00Z'
 
-# Publication type: 1 = Ongoing Research
+# Publication type: 1
 publication_types: ['1']
 
-publication: 'To be presented at the *Information Disorder Workshop (InDor26) at LREC 2026*, Palma de Mallorca, Spain (Non-archival; ongoing work)'
+publication: 'To be presented at the *Information Disorder Workshop (InDor26) at LREC 2026*, Palma de Mallorca, Spain'
 publication_short: 'To be presented at LREC 2026 - InDor26 Workshop'
 
 abstract: >
