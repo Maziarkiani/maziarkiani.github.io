@@ -16,11 +16,11 @@ doi: ''
 # Schedule page publish date
 publishDate: '2026-03-19T00:00:00Z'
 
-# Publication type: 3 = Preprint / Working Paper (Changed from 1 to reflect arXiv status while under review)
+# Publication type: 3 = Preprint / Working Paper
 publication_types: ['3']
 
-publication: '**[UNDER REVIEW]** — Preprint available on arXiv'
-publication_short: '**[UNDER REVIEW]**'
+publication: '**[WORKING PAPER]** — Preprint available on arXiv'
+publication_short: '**[WORKING PAPER]**'
 
 abstract: 'Conspiracy theories are anti-authoritarian narratives that lead to social conflict, impacting how
 people perceive political information. To help
