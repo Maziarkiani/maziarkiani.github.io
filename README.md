@@ -13,10 +13,6 @@ All original written content, research summaries, and portfolio materials hosted
 
 Full-text academic papers, preprints, and associated datasets/code linked or hosted on this site are subject to the specific copyright and licensing agreements of their respective publishers or distribution platforms (e.g., arXiv, ELRA/LREC, ACL). Please refer to the individual paper or its official source link for exact licensing terms and restrictions.
 
-**Website Source Code & Configuration:**
+**Note:**
 
-This framework is based on an open-source template, but it contains customized configurations, proprietary metadata, and personal data architecture.
-
-**Warning to developers:**
-
-Blindly cloning or forking this repository for your own use without carefully stripping and reconfiguring all customized metadata, site-specific variables, and tracking architecture will likely result in broken deployments, SEO penalties from search engines, and misconfigurations on your end.
+This framework is based on an open-source template, but it contains customized configurations, proprietary metadata, and personal data architecture. Blindly cloning or forking this repository for your own use without carefully stripping and reconfiguring all customized metadata, site-specific variables, and tracking architecture will likely result in broken deployments, SEO penalties from search engines, and misconfigurations on your end.
