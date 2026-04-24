@@ -31,12 +31,12 @@ tags:
 featured: true
 
 # Links
-url_pdf: 'https://arxiv.org/pdf/2604.21370'
+url_pdf: ''
 url_code: 'https://github.com/Maziarkiani/SemEval2026-Task9-Subtask1-Polarization'
 url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: ''
+url_source: 'https://arxiv.org/abs/2604.21370'
 url_video: ''
 ---
