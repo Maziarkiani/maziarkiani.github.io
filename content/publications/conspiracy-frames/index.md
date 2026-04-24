@@ -47,7 +47,7 @@ tags:
 featured: true
 
 # Links
-url_pdf: 'https://arxiv.org/pdf/2603.21368.pdf'
+url_pdf: ''
 url_code: ''
 url_dataset: ''
 url_poster: ''
