@@ -8,7 +8,7 @@ author_notes:
   - 'University of Turin'
 
 date: '2026-03-31T00:00:00Z'
-doi: '10.48550/arXiv.2603.27356'
+doi: ''
 
 # Schedule page publish date
 publishDate: '2026-03-31T00:00:00Z'
