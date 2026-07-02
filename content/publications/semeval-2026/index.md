@@ -37,6 +37,5 @@ url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: '[https://arxiv.org/abs/2604.21370](https://aclanthology.org/2026.semeval-1.181/](https://aclanthology.org/2026.semeval-1.181/)'
-url_video: ''
+url_source: https://aclanthology.org/2026.semeval-1.181/url_video: ''
 ---
