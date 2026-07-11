@@ -10,8 +10,7 @@ status:
   icon: ""
 role: NLP Researcher
 bio: |
-  I am an NLP and Computational Linguistics researcher currently pursuing my Master's degree in Language Technologies and Digital Humanities at University of Turin. My academic focus is on Large Language Models (LLMs), Explainable AI (XAI), multilingual NLP, and Human-in-the-Loop AI (HITL).
-  <br><br>
+I am an NLP and Computational Linguistics researcher with a Master's degree in Language Technologies and Digital Humanities from the University of Turin.  <br><br>
   Beyond academia, I have over 3 years of hands-on industry experience in SEO, web content, and data-driven digital marketing. 
   <br><br>
   **Research Interests:**
@@ -44,7 +43,7 @@ education:
   - degree: M.Sc. in Language Technologies and Digital Humanities
     institution: University of Turin
     start: 2023-10-01
-    end: 2026-06-30
+    end: 2026-07-10
     summary: |
       Focused on Large Language Models (LLMs), Explainable AI (XAI), and Human-in-the-Loop (HITL) evaluation frameworks.
   - degree: B.A. in English Language Translation
