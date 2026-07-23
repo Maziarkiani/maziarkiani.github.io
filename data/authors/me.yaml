@@ -10,16 +10,15 @@ status:
   icon: ""
 role: NLP Researcher
 bio: |
-  I am an NLP and Computational Linguistics researcher with a Master's degree in Language Technologies and Digital Humanities from the University of Turin.  <br><br>
-  Beyond academia, I have over 3 years of hands-on industry experience in SEO, web content, and data-driven digital marketing. 
+  I'm an NLP and Computational Linguistics researcher with a Master's degree in Language Technologies and Digital Humanities from the University of Turin, where I graduated in July 2026. My work sits at the intersection of language, culture, and AI, I'm interested in how large language models handle judgment calls that depend on where you're from and what language you think in, and what happens when they get it wrong.
   <br><br>
-  **Research Interests:**
-  * Explainable AI (XAI)
-  * In-Context Learning (ICL)
-  * Human-in-the-Loop AI (HITL)
-  * Information Disorder
-  * Multilingual & Cross-Cultural NLP
-
+  My [master's thesis](https://maziarkiani.github.io/publications/thesis-2026/), supervised by Prof. Viviana Patti and Dr. Marco Antonio Stranisci, grew out of a community-built dataset on information disorder ([InDor](https://lrec.elra.info/lrec2026-main-515)), where I saw firsthand how differently people across cultures read the same manipulative content. That led me to build a retrieval-based framework to connect models' reasoning to real, native-speaker explanations rather than generic examples, and tested it on Persian and Italian.
+  <br><br>
+  Before this, I spent over 3 years in SEO, web content, and digital marketing, work that taught me a lot about how language actually functions for real audiences, in industry and how it circulates on the web. I'm fluent with most SEO and marketing tools.
+  <br><br>
+  My Bachelor's degree is in English language translation, which at the time focused on linguistics and translation studies.
+  <br><br>
+  **My research interests are:** Multilingual & Cross-Cultural NLP, Computational Social Science (CSS), Explainable AI, In-Context Learning, Human-in-the-Loop AI, and Information Disorder.
 affiliations:
   - name: University of Turin
     url: https://en.unito.it/
