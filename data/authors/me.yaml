@@ -38,17 +38,3 @@ links:
     url: https://scholar.google.com/citations?user=qfEf1ZcAAAAJ
   - icon: academicons/cv
     url: https://maziarkiani.github.io/uploads/resume.pdf
-
-education:
-  - degree: M.Sc. in Language Technologies and Digital Humanities
-    institution: University of Turin
-    start: 2023-10-01
-    end: 2026-07-10
-    summary: |
-      Focused on Large Language Models (LLMs), Explainable AI (XAI), and Human-in-the-Loop (HITL) evaluation frameworks.
-  - degree: B.A. in English Language Translation
-    institution: Shahrekord University
-    start: 2013-09-01
-    end: 2017-02-28
-    summary: |
-      Focused on Linguistics and translation studies.
