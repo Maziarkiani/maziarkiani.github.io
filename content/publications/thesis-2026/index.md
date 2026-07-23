@@ -33,14 +33,14 @@ Kianimoghadam Jouneghani, M. (2026). *Culturally Adaptive Explainable LLM Assess
 
 ```bibtex
 @mastersthesis{kianimoghadam2026culturally,
-  title        = {Culturally Adaptive Explainable LLM Assessment for Multilingual Information Disorder},
-  author       = {Kianimoghadam Jouneghani, Maziar},
-  year         = {2026},
-  school       = {University of Turin},
-  type         = {Master's thesis},
-  address      = {Turin, Italy},
-  note         = {Advisors: Viviana Patti and Marco Antonio Stranisci},
-  url          = {https://maziarkiani.github.io/uploads/thesis.pdf},
-  howpublished = {UniTesi handle: https://hdl.handle.net/20.500.14240/192055}
+  title   = {Culturally Adaptive Explainable LLM Assessment for Multilingual Information Disorder},
+  author  = {Kianimoghadam Jouneghani, Maziar},
+  year    = {2026},
+  school  = {University of Turin},
+  type    = {Master's thesis},
+  address = {Turin, Italy},
+  note    = {Advisors: Viviana Patti and Marco Antonio Stranisci. 
+             UniTesi handle: https://hdl.handle.net/20.500.14240/192055},
+  url     = {https://maziarkiani.github.io/uploads/thesis.pdf}
 }
 ```
