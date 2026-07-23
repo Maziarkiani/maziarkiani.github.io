@@ -82,7 +82,7 @@ div.flex.pt-12.pb-4:has(img[alt="Maziar Kianimoghadam Jouneghani"]) {
 section.blox-resume-biography-3,
 section.blox-resume-biography-3 .resume-biography {
     padding-top: 1rem !important;
-    padding-bottom: 3rem !important;
+    padding-bottom: 2rem !important;
 }
 
 @media (min-width: 768px) {
