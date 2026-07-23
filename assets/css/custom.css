@@ -185,3 +185,9 @@ section.blox-collection .container.max-w-3xl {
     font-size: 0.8rem !important;
     line-height: 1.4 !important;
 }
+
+/* Justify bio text paragraphs */
+.bio-text p {
+    text-align: justify !important;
+    hyphens: auto;
+}
