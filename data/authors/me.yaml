@@ -10,13 +10,13 @@ status:
   icon: ""
 role: NLP Researcher
 bio: |
-  I'm an NLP and Computational Linguistics researcher with a Master's degree in Language Technologies and Digital Humanities from the University of Turin, where I graduated in July 2026. I'm interested in the intersection of language, culture, and AI, and I care about building trustworthy and fair AI systems.
+  I'm an NLP and Computational Linguistics researcher with a Master's degree in Language Technologies and Digital Humanities from the University of Turin, where I graduated in July 2026. I'm interested in the intersection of language, culture, and AI.
   <br><br>
-  My [master's thesis](https://maziarkiani.github.io/publications/thesis-2026/), supervised by Prof. Viviana Patti and Dr. Marco Antonio Stranisci, grew out of a community-built dataset on information disorder ([InDor](https://lrec.elra.info/lrec2026-main-515)). It proposed a retrieval-based framework to connect models' reasoning to native-speaker explanations in order to better assess information disorder, and tested it on Persian and Italian.
-  <br><br>
-  Before this, I spent over 3 years in SEO, web content, and digital marketing, work that showed me how language functions for real audiences, how it circulates online and how we can use it for marketing and business goals.
+  [My master's thesis](https://maziarkiani.github.io/publications/thesis-2026/), supervised by Prof. Viviana Patti and [Dr. Marco Antonio Stranisci](https://marcostranisci.github.io/), grew out of a community-developed dataset on information disorder ([InDor](https://lrec.elra.info/lrec2026-main-515)). It proposed a retrieval-based framework to connect LLMs' reasoning to native-speaker explanations in order to better assess information disorder, and tested it on Persian and Italian.
   <br><br>
   My Bachelor's degree is in English language translation, focused on linguistics and translation studies.
+  <br><br>
+  Also, beyond academia, I spent over 3 years in SEO, web content, and digital marketing, work that showed me how language functions for real audiences, how it circulates online and how we can use it for marketing and business goals.
   <br><br>
   **My research interests are:** Multilingual & Cross-Cultural NLP, Computational Social Science (CSS), Explainable AI, In-Context Learning, Human-in-the-Loop AI, and Information Disorder.
 affiliations:
