@@ -192,9 +192,8 @@ section.blox-collection .container.max-w-3xl {
 }
 
 /* ==========================================================================
-   7. PUBLICATION CARDS WITH VENUE LABEL
+   7. PUBLICATION CARDS
    ========================================================================== */
-
 /* Fix side margins on standalone Publications page to match homepage */
 @media (max-width: 767px) {
     body:not(:has(section.blox-resume-biography-3)) .container.max-w-3xl {
@@ -203,7 +202,6 @@ section.blox-collection .container.max-w-3xl {
         box-sizing: border-box !important;
     }
 }
-
 .pub-list-item.view-citation {
     position: relative;
     border: 1px solid var(--color-primary-200);
@@ -214,17 +212,22 @@ section.blox-collection .container.max-w-3xl {
     margin-top: 0.65rem !important;
     text-align: justify !important;
 }
-
 .pub-list-item.view-citation > .pub-icon {
     display: none;
 }
+/* Simple spacing before the link row, no divider line */
+.pub-list-item.view-citation > .flex.flex-wrap.space-x-3 {
+    margin-top: 0.75rem;
+}
 
-/* Venue label: floats to top-left corner, overlapping the card border */
-.pub-list-item.view-citation em:last-of-type {
+/* ==========================================================================
+   8. JS-INJECTED VENUE BADGE
+   ========================================================================== */
+
+.js-venue-badge {
     position: absolute;
     top: -0.65rem;
     left: 1rem;
-    font-style: normal !important;
     font-size: 0.75rem;
     font-weight: 700;
     padding: 0.15rem 0.6rem;
@@ -234,23 +237,7 @@ section.blox-collection .container.max-w-3xl {
     line-height: 1.4;
 }
 
-.pub-list-item.view-citation:has(strong) {
-    border-color: var(--color-secondary-300);
-    background-color: color-mix(in oklch, var(--color-secondary-100) 35%, var(--color-background));
-}
-
-.pub-list-item.view-citation:has(strong) strong {
-    position: absolute;
-    top: -0.65rem;
-    left: 1rem;
-    font-size: 0.75rem;
-    padding: 0.15rem 0.6rem;
-    border-radius: 999px;
+.js-venue-badge--review {
     background-color: var(--color-secondary-500);
     color: var(--color-secondary-50);
-}
-
-/* Simple spacing before the link row, no divider line */
-.pub-list-item.view-citation > .flex.flex-wrap.space-x-3 {
-    margin-top: 0.75rem;
 }
