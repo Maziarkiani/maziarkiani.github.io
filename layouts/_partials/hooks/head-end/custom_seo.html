@@ -12,7 +12,6 @@
   "url": "https://maziarkiani.github.io/"
 }
 </script>
-
 <script>
 document.addEventListener("DOMContentLoaded", function() {
     // Find all blocks that contain publication metadata/authors
@@ -28,5 +27,28 @@ document.addEventListener("DOMContentLoaded", function() {
             block.innerHTML = block.innerHTML.split(targetName).join(boldName);
         }
     });
+});
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('.pub-list-item.view-citation').forEach(function (card) {
+    var badgeSource = card.querySelector('em:last-of-type') || card.querySelector('strong');
+    if (!badgeSource) return;
+
+    var label = badgeSource.textContent.trim();
+
+    var next = badgeSource.nextSibling;
+    if (next && next.nodeType === Node.TEXT_NODE) {
+      next.textContent = next.textContent.replace(/^\s*\.\s*/, ' ');
+    }
+
+    var isUnderReview = badgeSource.tagName === 'STRONG';
+    badgeSource.remove();
+
+    var badge = document.createElement('span');
+    badge.className = isUnderReview ? 'js-venue-badge js-venue-badge--review' : 'js-venue-badge';
+    badge.textContent = label;
+    card.insertBefore(badge, card.firstChild);
+  });
 });
 </script>
