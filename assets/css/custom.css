@@ -197,7 +197,7 @@ section.blox-collection .container.max-w-3xl {
 
 /* Fix side margins on standalone Publications page to match homepage */
 @media (max-width: 767px) {
-    .container.max-w-3xl {
+    body:not(:has(section.blox-resume-biography-3)) .container.max-w-3xl {
         padding-left: 1.5rem !important;
         padding-right: 1.5rem !important;
         box-sizing: border-box !important;
