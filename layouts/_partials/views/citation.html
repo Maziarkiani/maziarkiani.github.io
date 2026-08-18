@@ -2,7 +2,7 @@
 {{ $year_value := $item.Params.event_start | default $item.Date }}
 {{ $year := (time $year_value).Format "2006" }}
 {{ $has_attachments := partial "functions/has_attachments" $item }}
-{{ $pub := partial "github.com/HugoBlox/kit/modules/blox/functions/resolve_publication.html" $item }}
+{{ $pub := partial "functions/resolve_publication.html" $item }}
 {{ $top_award := "" }}
 {{ with $item.Params.awards }}{{ $top_award = index . 0 }}{{ end }}
 <div class="pub-list-item view-citation" style="margin-bottom: 1rem">
