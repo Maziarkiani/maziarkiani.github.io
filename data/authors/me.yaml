@@ -10,9 +10,9 @@ status:
   icon: ""
 role: NLP Researcher
 bio: |
-  Hi! I'm an NLP and Computational Linguistics researcher with a Master's degree in Language Technologies and Digital Humanities from the [University of Turin](https://en.unito.it/), where I graduated in July 2026. My interest sits at the intersection of language, culture, and AI.
+  Hi! I'm an NLP and Computational Linguistics researcher with a Master's degree in Language Technologies and Digital Humanities from the [University of Turin](https://en.unito.it/), where I graduated in July 2026. I'm interested in the intersection of language, culture, and AI.
   <br><br>
-  [My master's thesis](https://maziarkiani.github.io/publications/thesis-2026/), supervised by Prof. Viviana Patti and Dr. [Marco Antonio Stranisci](https://marcostranisci.github.io/), grew out of a community-developed dataset on information disorder ([InDor](https://lrec.elra.info/lrec2026-main-515)). It proposed a retrieval-based framework to connect LLMs' reasoning to native-speaker explanations from InDor, based on semantic similarity, in order to align LLMs better on assessing and reasoning about manipulation signals across different cultures and languages. This framework was tested on Italian and Persian, using automatic metrics, qualitative analysis, and a human evaluation study.
+  [My master's thesis](https://maziarkiani.github.io/publications/thesis-2026/), supervised by Prof. [Viviana Patti](https://www.cs.unito.it/do/docenti.pl/Show?_id=vpatti#tab-profilo) and Dr. [Marco Antonio Stranisci](https://marcostranisci.github.io/), grew out of a community-developed dataset on information disorder ([InDor](https://lrec.elra.info/lrec2026-main-515)). It proposed a retrieval-based framework to connect LLMs' reasoning to native-speaker explanations from InDor, based on semantic similarity, in order to align LLMs better on assessing and reasoning about manipulation signals across different cultures and languages. This framework was tested on Italian and Persian, using automatic metrics, qualitative analysis, and a human evaluation study.
   <br><br>
   My Bachelor's degree is in English language translation, focused on linguistics and translation studies.
   <br><br>
