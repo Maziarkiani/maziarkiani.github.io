@@ -2,8 +2,6 @@
 title: 'Culturally Adaptive Explainable LLM Assessment for Multilingual Information Disorder: A Human-in-the-Loop Approach'
 authors:
   - me
-author_notes:
-  - 'University of Turin'
 date: '2026-05-12T00:00:00Z'
 doi: ''
 # Schedule page publish date
