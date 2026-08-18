@@ -190,3 +190,52 @@ section.blox-collection .container.max-w-3xl {
     text-align: justify !important;
     hyphens: auto;
 }
+
+/* ==========================================================================
+   PUBLICATION CARDS WITH VENUE LABEL
+   ========================================================================== */
+
+.pub-list-item.view-citation {
+    position: relative;
+    border: 1px solid var(--color-primary-200);
+    background-color: color-mix(in oklch, var(--color-primary-100) 40%, var(--color-background));
+    border-radius: var(--hb-radius, 0.5rem);
+    padding: 1.75rem 1.25rem 1.25rem 1.25rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+/* Hide the little file icon since the card border now does that job visually */
+.pub-list-item.view-citation > .pub-icon {
+    display: none;
+}
+
+/* Venue label: the LAST <em> inside each card, pinned to the top-left corner */
+.pub-list-item.view-citation em:last-of-type {
+    position: absolute;
+    top: -0.65rem;
+    left: 1rem;
+    font-style: normal !important;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.15rem 0.6rem;
+    border-radius: 999px;
+    background-color: var(--color-primary-500);
+    color: var(--color-primary-50);
+    line-height: 1.4;
+}
+
+/* Special treatment for the still-unpublished paper: distinct color, no fake "venue" look */
+.pub-list-item.view-citation:has(strong) {
+    border-color: var(--color-secondary-300);
+    background-color: color-mix(in oklch, var(--color-secondary-100) 35%, var(--color-background));
+}
+.pub-list-item.view-citation strong {
+    position: absolute;
+    top: -0.65rem;
+    left: 1rem;
+    font-size: 0.75rem;
+    padding: 0.15rem 0.6rem;
+    border-radius: 999px;
+    background-color: var(--color-secondary-500);
+    color: var(--color-secondary-50);
+}
