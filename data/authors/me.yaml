@@ -10,18 +10,14 @@ status:
   icon: ""
 role: NLP Researcher
 bio: |
-  I'm an NLP and Computational Linguistics researcher with a Master's degree in Language Technologies and Digital Humanities from the University of Turin, where I graduated in July 2026. I'm interested in the intersection of language, culture, and AI.
+  Hi! I'm an NLP and Computational Linguistics researcher with a Master's degree in Language Technologies and Digital Humanities from the [University of Turin](https://en.unito.it/), where I graduated in July 2026. My interest sits at the intersection of language, culture, and AI.
   <br><br>
-  [My master's thesis](https://maziarkiani.github.io/publications/thesis-2026/), supervised by Prof. Viviana Patti and [Dr. Marco Antonio Stranisci](https://marcostranisci.github.io/), grew out of a community-developed dataset on information disorder ([InDor](https://lrec.elra.info/lrec2026-main-515)). It proposed a retrieval-based framework to connect LLMs' reasoning to native-speaker explanations in order to better assess information disorder, and tested it on Persian and Italian.
+  [My master's thesis](https://maziarkiani.github.io/publications/thesis-2026/), supervised by Prof. Viviana Patti and Dr. [Marco Antonio Stranisci](https://marcostranisci.github.io/), grew out of a community-developed dataset on information disorder ([InDor](https://lrec.elra.info/lrec2026-main-515)). It proposed a retrieval-based framework to connect LLMs' reasoning to native-speaker explanations from InDor, based on semantic similarity, in order to align LLMs better on assessing and reasoning about manipulation signals across different cultures and languages. This framework was tested on Italian and Persian, using automatic metrics, qualitative analysis, and a human evaluation study.
   <br><br>
   My Bachelor's degree is in English language translation, focused on linguistics and translation studies.
-  <br><br>
-  Also, beyond academia, I spent over 3 years in SEO, web content, and digital marketing, work that showed me how language functions for real audiences, how it circulates online and how we can use it for marketing and business goals.
+  Also, beyond academia, I spent over 3 years in SEO, web content, and digital marketing.
   <br><br>
   **My research interests are:** Multilingual & Cross-Cultural NLP, Computational Social Science (CSS), Explainable AI, In-Context Learning, Human-in-the-Loop AI, and Information Disorder.
-affiliations:
-  - name: University of Turin
-    url: https://en.unito.it/
 
 links:
   - icon: at-symbol
