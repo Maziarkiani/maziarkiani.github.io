@@ -10,7 +10,6 @@ status:
   icon: ""
 role: NLP Researcher
 bio: |
- bio: |
   Hi! My name is Maziar, though you can call me Maaz. I'm an NLP and computational linguistics researcher. I finished my Master's in Language Technologies and Digital Humanities at the [University of Turin](https://en.unito.it/) in July 2026.
   <br><br>
   My research over the past two years has centered on multilingual and cross-cultural NLP, and on harmful online content, specifically how it spreads and how it is perceived differently across cultures and communities.
@@ -22,7 +21,7 @@ bio: |
   Beyond academia, I spent over 3 years in SEO, web content, and digital marketing.
   <br><br>
   **In general, my research interests are:** Multilingual & Cross-Cultural NLP, Computational Social Science (CSS), Explainable AI, Fairness, In-Context Learning, Human-in-the-Loop AI, and Information Disorder.
-  links:
+links:
   - icon: at-symbol
     url: mailto:maziar.kianimoghadam@edu.unito.it
     label: University E-mail
