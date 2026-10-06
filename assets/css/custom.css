@@ -103,14 +103,6 @@ section.blox-collection .container.max-w-3xl {
     margin-top: 2rem !important; /* Default was 5rem (sm:mt-20) */
 }
 
-/* Bio: tighter gap between paragraphs (replaces the blank line made by <br><br>) */
-.bio-text br,
-.blox-resume-biography-3 .prose br {
-    display: block;
-    content: "";
-    margin-top: 1.1rem;
-}
-
 /* ==========================================================================
    5. THE ULTIMATE DESKTOP LAYOUT (Avatar Left, Education Centered)
    ========================================================================== */
