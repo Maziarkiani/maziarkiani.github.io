@@ -50,7 +50,7 @@ tags:
 featured: true
 
 # Links
-url_pdf: 'https://lrec.elra.info/lrec2026-main-515'
+url_pdf: 'https://aclanthology.org/2026.lrec-1.515/'
 url_code: 'https://github.com/citizen-dataset/InDor'
 url_dataset: 'https://github.com/citizen-dataset/InDor'
 url_poster: ''
