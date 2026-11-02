@@ -241,3 +241,34 @@ section.blox-collection .container.max-w-3xl {
     background-color: var(--color-secondary-500);
     color: var(--color-secondary-50);
 }
+
+/* ==========================================================================
+   9. DESKTOP BIO WRAP (Bio text flows under the avatar column)
+   ========================================================================== */
+
+@media (min-width: 768px) {
+    /* Swap the 2-column grid for a float, so the bio wraps below the left column */
+    .blox-resume-biography-3 .grid.md\:grid-cols-12 {
+        display: block !important;
+    }
+
+    .blox-resume-biography-3 .grid.md\:grid-cols-12::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Left column: same width and gap as the 3fr / 7fr grid in section 5 */
+    .blox-resume-biography-3 .md\:col-span-4 {
+        float: left !important;
+        width: calc((100% - 4rem) * 0.3) !important;
+        margin-right: 4rem !important;
+        margin-bottom: 2rem !important;
+    }
+
+    /* Let the bio text use the full width once it passes the left column */
+    .blox-resume-biography-3 .md\:col-span-8 .prose,
+    .blox-resume-biography-3 .bio-text {
+        max-width: none !important;
+    }
+}
